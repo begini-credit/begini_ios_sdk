@@ -1,0 +1,4 @@
+framework module begini_ios_sdk {
+  header "begini_ios_sdk-Swift.h"
+  requires objc
+}
