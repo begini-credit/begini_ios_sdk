@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "begini_ios_sdk"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Begini iOS SDK"
   spec.description  = "Begini SDK allows you to collect device data in your iPhone app."
 
-  spec.homepage     = "https://www.begini.co"
+  spec.homepage     = "https://github.com/begini-credit/begini_ios_sdk"
   spec.license      = {
                         :type => 'MIT',
                         :file => 'LICENSE'
