@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/begini_ios_sdk-Swift.h</key>
 		<data>
-		jarMPBNQMulr4ajUBGqFAgLHEhY=
+		HPEwrxh+Hh0/SxJkda92Nq2RRHM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -22,15 +22,15 @@
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		7GIBNDoFq3M0U1lkto+Tp9HJwsE=
+		I+yrWEZTXBMjsCv3C3sZMBLnLoc=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		gPN1F/Mg0QG0FdwSvCdsgi1up4E=
+		yui3nRSu+yMsUOSkk6+1YDfqdMs=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		DC6EL2DMxKzxU6z7BnuVhn+/N1U=
+		Yy2u8NT8bgCZkob/aNuIH/pf318=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oW4SeT3jRuJygFEKbmZwjVt3pY7zX8/83tvXGQygpPY=
+			DQS+zCeWck0lK4u6KXF7mVqZQDEtkJgXi2fm1i0wO4E=
 			</data>
 		</dict>
 		<key>LICENSE.txt</key>
@@ -100,21 +100,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cQzygculZzaqHMVdheNQN093eOYGf3qpOqtPb0f8aZw=
+			6fzqKwePWRrzPjb2BWSUDSlqC0H72+hIeGElpNTyY+w=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8WaUBZ86+kef76j0bDNaMJ35Kg3LFGUIg6r/sK17e3w=
+			eUnn6QBNV3sHG5wAmrjmxRZP2CZYH7oM3yBDGd1z9aI=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PYnd4LinN6IRkqgVkXJXzulexvBrpIk3JHCHu9dg8P0=
+			3rPtgj7asgPS2gymnTswlllc4DrPPu4XI0djM162lS0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
