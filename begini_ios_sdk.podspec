@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "begini_ios_sdk"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "Begini iOS SDK"
   spec.description  = "Begini SDK allows you to collect device data in your iPhone app."
 
