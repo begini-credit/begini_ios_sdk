@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		YPNFHLCbAIE0w7L/XjbYpfJ99qk=
+		PpkRgM2Ljm4MZbSWXvQvYFSZ5/k=
 		</data>
 		<key>Headers/begini_ios_sdk-Swift.h</key>
 		<data>
-		IssVEYbCIURMSMo+ngNdBtkBAtc=
+		vSXICPP5R1iaqpC9Hqfo+wEeDAk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		x3xIkrdMv7NqCvIfTdGzQ38+SOE=
+		uovm2O0GaOuyYxyRiiPpB7iAP6E=
 		</data>
 		<key>LICENSE.txt</key>
 		<data>
@@ -22,27 +22,27 @@
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		a0M2Rh/maISSKOnZ5mPHnrAXAKE=
+		nmsUL7Q/krhVNbtkLZbzxmBAODM=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OGMppiYcRY9K3Ur5hkh8XO+7RnQ=
+		r7eNc/6zr2mnAoqr/qWf3D9W4Cg=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7yYZlBT1mK8y+cvm7RWvt2NCYf4=
+		sjxhm6hcm8FW7Rt9lAFSsEfd8vQ=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Cq0wYHCcqc0iWjJhGwfduzz6Ek8=
+		mdQ4Ym358ObMM/eSo2lJbahvCuc=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3BQmNCD3iC7RF/zIx9a0CyQEpqQ=
+		K3TfIutgBJvNo1uvU8ekfhYsQoA=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OERNGgISkR+2fgqWj4p7tcKzIX4=
+		7F4sY575DKAkbnvdZjnrAkrooOk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Permissions.storyboardc/8d2-WJ-ySX-view-10L-Ye-f67.nib</key>
 		<data>
-		0UReKf4+//aPUcD65ahU4piyOlA=
+		R836Eih89WXCTb86f+Ubq7sH9bI=
 		</data>
 		<key>Permissions.storyboardc/DataCollectionNavViewController.nib</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Permissions.storyboardc/E92-r4-oYl-view-mqo-Vv-vxP.nib</key>
 		<data>
-		MoOuWE4Jtv6zMKp9SLOKL36RNkQ=
+		xF4LgqjR2SBUHUR526vWb7qVA44=
 		</data>
 		<key>Permissions.storyboardc/Info.plist</key>
 		<data>
@@ -91,14 +91,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+LWIQ/1k6S6Sfc+/l+dA0iCK3eI8HvhIs2LE6BaSYSE=
+			D3CHsCzUMspYMMrAmJpdP89hbpJAwAF5cPWK+KtQiDI=
 			</data>
 		</dict>
 		<key>Headers/begini_ios_sdk-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			03p0Wm9rEt+kIILmR5dgroUIWIvZKcpzehW2v2d45I4=
+			0Jb8UL89L2keDAsmXCXBS/SIaqy8OyKjfK/j0hFNP00=
 			</data>
 		</dict>
 		<key>LICENSE.txt</key>
@@ -112,42 +112,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sWJsPGZ9prfz7iahek6QY7pNnX37cZmDsGyVNzQaeNw=
+			ZzjOnXuPGSdTKy3dbrKDl1flaq3/wxpUEvzIa7AYA94=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rc6LSOmCVVDywlhf2fOa63DfU+F8NKMWzyrla2nQrq0=
+			6UvYfbTajA80pOTwg+Og3FByj7Vc4JFFukDNvn4XcGg=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cba4YLb7zpLZ6nxi2r7BqUUnlL+p/e5f63bhPZ0yKxc=
+			Eq+QIu5jlhthBmWOOqzXLCUp7K4TdJuUxaHIeToCsDQ=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ko5N1M69m7WTyqiPBGLYHcX2ep3ZzX3tmadoiTzzPAE=
+			jiHvXOXhOZoKfm+J1zi96z5BK/zq8Z0sL2mR+7wse38=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vQHKKMxHX/6YPECcc7dkv6ob/QyBH32PKr+7s0rPd88=
+			VVs/za4Qwdzfs+SgWMhcZJ+t9PHb+CHlA89Za8pO7Ww=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r4INQSNnwaldJnHYwNWXa42jcfPxFlqWSKHUF8WCXMI=
+			4I6ziF/n6jdTD5Aui9D6NoADPRtPA86exhQzbkC70Tc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -161,7 +161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ab9PY27qTIoLRhHaEda169R4bt0JdBofYtdhx6nyCM8=
+			8UG2qys+xHjWlnOkTApJrJhJUhExb8psn8g/MGOxTLI=
 			</data>
 		</dict>
 		<key>Permissions.storyboardc/DataCollectionNavViewController.nib</key>
@@ -182,7 +182,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aeHCQMKHlYRfhwO7xvxDC9hm4I7xfAEXQPIVUn/8uhU=
+			F39Rp07iBfo9u6wsHcoxgRuVmvW8iaq7pDEO8z8+DoY=
 			</data>
 		</dict>
 		<key>Permissions.storyboardc/Info.plist</key>
