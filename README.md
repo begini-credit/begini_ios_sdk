@@ -1,4 +1,4 @@
-Begini iOS SDK V1.1.0
+Begini iOS SDK V1.2.0
 
 <b>Pre-requisites</b>
 
@@ -23,7 +23,7 @@ Your Podfile will get open in text mode. Initially there will be some default co
 Or you can choose the version based on your requirements
  
 ```ruby
- pod 'begini_ios_sdk', '1.1.0'
+ pod 'begini_ios_sdk', '1.2.0'
  ```
  
 <b>Mandatory permissions</b>
