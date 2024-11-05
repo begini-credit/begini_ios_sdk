@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import SystemConfiguration.CaptiveNetwork
+import CommonCrypto
 import Compression
 import Contacts
 import CoreFoundation
@@ -33,6 +34,12 @@ extension Foundation.Data {
   public func crc32(checksum: begini_ios_sdk.CRC32) -> begini_ios_sdk.CRC32
   public static func compress(size: Swift.Int64, bufferSize: Swift.Int, provider: (_ position: Swift.Int64, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> begini_ios_sdk.CRC32
   public static func decompress(size: Swift.Int64, bufferSize: Swift.Int, skipCRC32: Swift.Bool, provider: (_ position: Swift.Int64, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> begini_ios_sdk.CRC32
+}
+extension Foundation.Data {
+  public func sha256() -> Swift.String
+}
+extension Swift.String {
+  public func sha256() -> Swift.String
 }
 public struct CompressionLevel : Swift.RawRepresentable {
   public let rawValue: Swift.Int32
@@ -81,7 +88,7 @@ extension begini_ios_sdk.Archive {
 }
 @objc @_inheritsConvenienceInitializers public class BeginiAuthorize : ObjectiveC.NSObject {
   public static let shared: begini_ios_sdk.BeginiAuthorize
-  public func BeginiDataSdkOptions(integration_id: Swift.String, api_key: Swift.String, isContactsEnabled: Swift.Bool, isProfileEnabled: Swift.Bool, u_id: Swift.String, isBatteryEnabled: Swift.Bool, isWifiEnabled: Swift.Bool, isGalleryExifDataEnabled: Swift.Bool, isCalendarEnabled: Swift.Bool, isLocationEnabled: Swift.Bool, primaryColor: UIKit.UIColor, delegate: begini_ios_sdk.BeginiAuthorizeDelegate, presentingVC: UIKit.UIViewController)
+  public func BeginiDataSdkOptions(integration_id: Swift.String, api_key: Swift.String, isContactsEnabled: Swift.Bool, isProfileEnabled: Swift.Bool, u_id: Swift.String, isBatteryEnabled: Swift.Bool, isWifiEnabled: Swift.Bool, isGalleryExifDataEnabled: Swift.Bool, isCalendarEnabled: Swift.Bool, isLocationEnabled: Swift.Bool, isPiiHashingEnabled: Swift.Bool, primaryColor: UIKit.UIColor, delegate: begini_ios_sdk.BeginiAuthorizeDelegate, presentingVC: UIKit.UIViewController)
   @objc override dynamic public init()
   @objc deinit
 }

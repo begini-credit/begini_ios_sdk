@@ -1,21 +1,24 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
-// swift-module-flags: -target x86_64-apple-ios12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name begini_ios_sdk
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name begini_ios_sdk
 import AVFoundation
 import SystemConfiguration.CaptiveNetwork
+import CommonCrypto
 import Compression
 import Contacts
 import CoreFoundation
 import CoreLocation
+import DeveloperToolsSupport
 import EventKit
 import Foundation
 import Photos
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import zlib
 public enum CompressionMethod : Swift.UInt16 {
   case none
@@ -33,6 +36,12 @@ extension Foundation.Data {
   public func crc32(checksum: begini_ios_sdk.CRC32) -> begini_ios_sdk.CRC32
   public static func compress(size: Swift.Int64, bufferSize: Swift.Int, provider: (_ position: Swift.Int64, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> begini_ios_sdk.CRC32
   public static func decompress(size: Swift.Int64, bufferSize: Swift.Int, skipCRC32: Swift.Bool, provider: (_ position: Swift.Int64, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> begini_ios_sdk.CRC32
+}
+extension Foundation.Data {
+  public func sha256() -> Swift.String
+}
+extension Swift.String {
+  public func sha256() -> Swift.String
 }
 public struct CompressionLevel : Swift.RawRepresentable {
   public let rawValue: Swift.Int32
@@ -81,7 +90,7 @@ extension begini_ios_sdk.Archive {
 }
 @objc @_inheritsConvenienceInitializers public class BeginiAuthorize : ObjectiveC.NSObject {
   public static let shared: begini_ios_sdk.BeginiAuthorize
-  public func BeginiDataSdkOptions(integration_id: Swift.String, api_key: Swift.String, isContactsEnabled: Swift.Bool, isProfileEnabled: Swift.Bool, u_id: Swift.String, isBatteryEnabled: Swift.Bool, isWifiEnabled: Swift.Bool, isGalleryExifDataEnabled: Swift.Bool, isCalendarEnabled: Swift.Bool, isLocationEnabled: Swift.Bool, primaryColor: UIKit.UIColor, delegate: begini_ios_sdk.BeginiAuthorizeDelegate, presentingVC: UIKit.UIViewController)
+  public func BeginiDataSdkOptions(integration_id: Swift.String, api_key: Swift.String, isContactsEnabled: Swift.Bool, isProfileEnabled: Swift.Bool, u_id: Swift.String, isBatteryEnabled: Swift.Bool, isWifiEnabled: Swift.Bool, isGalleryExifDataEnabled: Swift.Bool, isCalendarEnabled: Swift.Bool, isLocationEnabled: Swift.Bool, isPiiHashingEnabled: Swift.Bool, primaryColor: UIKit.UIColor, delegate: any begini_ios_sdk.BeginiAuthorizeDelegate, presentingVC: UIKit.UIViewController)
   @objc override dynamic public init()
   @objc deinit
 }

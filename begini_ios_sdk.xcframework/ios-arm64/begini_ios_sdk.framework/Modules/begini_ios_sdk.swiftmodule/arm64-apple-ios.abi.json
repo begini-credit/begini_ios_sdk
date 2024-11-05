@@ -246,6 +246,23 @@
       },
       {
         "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -1229,7 +1246,7 @@
           {
             "kind": "Function",
             "name": "BeginiDataSdkOptions",
-            "printedName": "BeginiDataSdkOptions(integration_id:api_key:isContactsEnabled:isProfileEnabled:u_id:isBatteryEnabled:isWifiEnabled:isGalleryExifDataEnabled:isCalendarEnabled:isLocationEnabled:primaryColor:delegate:presentingVC:)",
+            "printedName": "BeginiDataSdkOptions(integration_id:api_key:isContactsEnabled:isProfileEnabled:u_id:isBatteryEnabled:isWifiEnabled:isGalleryExifDataEnabled:isCalendarEnabled:isLocationEnabled:isPiiHashingEnabled:primaryColor:delegate:presentingVC:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1298,6 +1315,12 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "UIColor",
                 "printedName": "UIKit.UIColor",
                 "usr": "c:objc(cs)UIColor"
@@ -1316,8 +1339,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO012primaryColor8delegate12presentingVCySS_SSS2bSSS5bSo7UIColorCAA0dE8Delegate_pSo16UIViewControllerCtF",
-            "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO012primaryColor8delegate12presentingVCySS_SSS2bSSS5bSo7UIColorCAA0dE8Delegate_pSo16UIViewControllerCtF",
+            "usr": "s:14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO00m10PiiHashingO012primaryColor8delegate12presentingVCySS_SSS2bSSS6bSo7UIColorCAA0dE8Delegate_pSo16UIViewControllerCtF",
+            "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO00m10PiiHashingO012primaryColor8delegate12presentingVCySS_SSS2bSSS6bSo7UIColorCAA0dE8Delegate_pSo16UIViewControllerCtF",
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "AccessControl"
@@ -8326,6 +8349,28 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "sha256",
+            "printedName": "sha256()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation4DataV14begini_ios_sdkE6sha256SSyF",
+            "mangledName": "$s10Foundation4DataV14begini_ios_sdkE6sha256SSyF",
+            "moduleName": "begini_ios_sdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "isGzipped",
             "printedName": "isGzipped",
@@ -9098,6 +9143,561 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "String",
+        "printedName": "String",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sha256",
+            "printedName": "sha256()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS14begini_ios_sdkE6sha256SSyF",
+            "mangledName": "$sSS14begini_ios_sdkE6sha256SSyF",
+            "moduleName": "begini_ios_sdk",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:SS",
+        "mangledName": "$sSS",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.String.UTF8View",
+                    "usr": "s:SS8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.String.UTF16View",
+                    "usr": "s:SS9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.String.UnicodeScalarView",
+                    "usr": "s:SS17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "URL",
         "printedName": "URL",
         "children": [
@@ -9661,50 +10261,57 @@
     },
     {
       "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1332,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1338,
+      "offset": 1381,
       "length": 5,
       "value": "187.0"
     },
     {
       "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1344,
+      "offset": 1387,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1358,
+      "offset": 1401,
       "length": 4,
       "value": "28.0"
     },
     {
       "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1363,
+      "offset": 1406,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1376,
+      "offset": 1419,
       "length": 5,
       "value": "109.0"
     },
     {
       "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1382,
+      "offset": 1425,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 1396,
+      "offset": 1439,
       "length": 1,
       "value": "1"
     },
@@ -10075,28 +10682,28 @@
     {
       "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Models\/Models.swift",
       "kind": "BooleanLiteral",
-      "offset": 1393,
+      "offset": 1419,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Models\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 1592,
+      "offset": 1618,
       "length": 15,
       "value": "\"calendar_data\""
     },
     {
       "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Models\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 1790,
+      "offset": 1816,
       "length": 15,
       "value": "\"contacts_data\""
     },
     {
       "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Models\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 1980,
+      "offset": 2006,
       "length": 19,
       "value": "\"gallery_exif_data\""
     },
@@ -10271,16 +10878,16 @@
     {
       "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 652,
-      "length": 47,
-      "value": "\"https:\/\/api.begini.co\/v1\/sessions-management\/\""
+      "offset": 406,
+      "length": 50,
+      "value": "\"https:\/\/qa-api.begini.co\/v1\/sessions-management\/\""
     },
     {
       "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 726,
-      "length": 43,
-      "value": "\"https:\/\/api.begini.co\/v2\/master\/ios-data\/\""
+      "offset": 483,
+      "length": 46,
+      "value": "\"https:\/\/qa-api.begini.co\/v2\/master\/ios-data\/\""
     },
     {
       "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
