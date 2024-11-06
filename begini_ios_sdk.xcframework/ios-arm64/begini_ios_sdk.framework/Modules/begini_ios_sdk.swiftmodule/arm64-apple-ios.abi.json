@@ -11260,140 +11260,175 @@
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2831,
+      "offset": 2797,
+      "length": 4,
+      "value": "\"ok\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2859,
+      "length": 8,
+      "value": "\"cancel\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2928,
+      "length": 11,
+      "value": "\"try_again\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2993,
+      "length": 8,
+      "value": "\"btn_no\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3056,
+      "length": 9,
+      "value": "\"btn_yes\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3158,
       "length": 9,
       "value": "\"IOS0001\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2876,
+      "offset": 3203,
       "length": 9,
       "value": "\"IOS0002\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2919,
+      "offset": 3246,
       "length": 9,
       "value": "\"IOS0003\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2965,
+      "offset": 3292,
       "length": 9,
       "value": "\"IOS0004\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3010,
+      "offset": 3337,
       "length": 9,
       "value": "\"IOS0005\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3367,
+      "offset": 3694,
       "length": 9,
       "value": "\"IOS0000\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3402,
+      "offset": 3729,
       "length": 9,
       "value": "\"IOS0001\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3437,
+      "offset": 3764,
       "length": 9,
       "value": "\"IOS0003\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3472,
+      "offset": 3799,
       "length": 9,
       "value": "\"IOS0010\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3507,
+      "offset": 3834,
       "length": 9,
       "value": "\"IOS0021\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3542,
+      "offset": 3869,
       "length": 9,
       "value": "\"IOS0022\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3577,
+      "offset": 3904,
       "length": 9,
       "value": "\"IOS0023\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3612,
+      "offset": 3939,
       "length": 9,
       "value": "\"IOS0052\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3667,
+      "offset": 3994,
       "length": 7,
       "value": "\"START\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3700,
+      "offset": 4027,
       "length": 9,
       "value": "\"SENDING\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3737,
+      "offset": 4064,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3777,
+      "offset": 4104,
       "length": 12,
       "value": "\"INCOMPLETE\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3817,
+      "offset": 4144,
       "length": 11,
       "value": "\"CANCELLED\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3854,
+      "offset": 4181,
       "length": 9,
       "value": "\"EXPIRED\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3885,
+      "offset": 4212,
       "length": 5,
       "value": "\"1.0\""
     },
