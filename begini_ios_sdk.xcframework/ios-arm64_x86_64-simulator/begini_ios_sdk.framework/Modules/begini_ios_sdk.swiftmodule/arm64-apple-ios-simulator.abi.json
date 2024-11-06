@@ -1246,7 +1246,7 @@
           {
             "kind": "Function",
             "name": "BeginiDataSdkOptions",
-            "printedName": "BeginiDataSdkOptions(integration_id:api_key:isContactsEnabled:isProfileEnabled:u_id:isBatteryEnabled:isWifiEnabled:isGalleryExifDataEnabled:isCalendarEnabled:isLocationEnabled:isPiiHashingEnabled:primaryColor:delegate:presentingVC:)",
+            "printedName": "BeginiDataSdkOptions(integration_id:api_key:isContactsEnabled:isProfileEnabled:u_id:isBatteryEnabled:isWifiEnabled:isGalleryExifDataEnabled:isCalendarEnabled:isLocationEnabled:isPiiHashingEnabled:primaryColor:language:delegate:presentingVC:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1327,6 +1327,12 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "BeginiAuthorizeDelegate",
                 "printedName": "any begini_ios_sdk.BeginiAuthorizeDelegate",
                 "usr": "s:14begini_ios_sdk23BeginiAuthorizeDelegateP"
@@ -1339,8 +1345,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO00m10PiiHashingO012primaryColor8delegate12presentingVCySS_SSS2bSSS6bSo7UIColorCAA0dE8Delegate_pSo16UIViewControllerCtF",
-            "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO00m10PiiHashingO012primaryColor8delegate12presentingVCySS_SSS2bSSS6bSo7UIColorCAA0dE8Delegate_pSo16UIViewControllerCtF",
+            "usr": "s:14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO00m10PiiHashingO012primaryColor8language8delegate12presentingVCySS_SSS2bSSS6bSo7UIColorCSSAA0dE8Delegate_pSo16UIViewControllerCtF",
+            "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO00m10PiiHashingO012primaryColor8language8delegate12presentingVCySS_SSS2bSSS6bSo7UIColorCSSAA0dE8Delegate_pSo16UIViewControllerCtF",
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "AccessControl"
@@ -10274,7 +10280,7 @@
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/RequestPermissionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 503,
+      "offset": 1055,
       "length": 5,
       "value": "false"
     },
@@ -10428,49 +10434,49 @@
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1381,
+      "offset": 1415,
       "length": 5,
       "value": "187.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1387,
+      "offset": 1421,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1401,
+      "offset": 1435,
       "length": 4,
       "value": "28.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1406,
+      "offset": 1440,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1419,
+      "offset": 1453,
       "length": 5,
       "value": "109.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1425,
+      "offset": 1459,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 1439,
+      "offset": 1473,
       "length": 1,
       "value": "1"
     },
@@ -10764,49 +10770,49 @@
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 632,
+      "offset": 777,
       "length": 5,
       "value": "230.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 638,
+      "offset": 783,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 652,
+      "offset": 797,
       "length": 5,
       "value": "232.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 658,
+      "offset": 803,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 671,
+      "offset": 816,
       "length": 5,
       "value": "232.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 677,
+      "offset": 822,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 691,
+      "offset": 836,
       "length": 1,
       "value": "1"
     },
@@ -11170,224 +11176,224 @@
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1646,
+      "offset": 1676,
       "length": 39,
-      "value": "\"Something went wrong please try again\""
+      "value": "\"something_went_wrong_please_try_again\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1743,
-      "length": 47,
-      "value": "\"No internet connection please try again later\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1824,
-      "length": 128,
-      "value": "\"Sorry your data submission session has expired. You will be taken back to the previous page, where you can start a new session\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1984,
+      "offset": 1806,
       "length": 41,
-      "value": "\"SDK authentication failed. Error code: \""
+      "value": "\"no_internet_connection_please_try_again\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2066,
-      "length": 41,
-      "value": "\"SDK authentication failed. Error code: \""
+      "offset": 1912,
+      "length": 17,
+      "value": "\"session_expired\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2143,
-      "length": 77,
-      "value": "\"Your data submission has been cancelled. We are unable to analyze your data\""
+      "offset": 1993,
+      "length": 15,
+      "value": "\"invalid_token\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2256,
-      "length": 63,
-      "value": "\"Thank you for your time. Your data has already been submitted\""
+      "offset": 2081,
+      "length": 15,
+      "value": "\"invalid_token\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2356,
-      "length": 23,
-      "value": "\"Incomplete submission\""
+      "offset": 2164,
+      "length": 19,
+      "value": "\"cancelled_message\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2412,
-      "length": 9,
-      "value": "\"Confirm\""
+      "offset": 2251,
+      "length": 19,
+      "value": "\"already_submitted\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2476,
-      "length": 73,
-      "value": "\"You did not agree to share your data.\nAre you sure you want to cancel?\""
+      "offset": 2339,
+      "length": 20,
+      "value": "\"incomplete_message\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2596,
-      "length": 69,
-      "value": "\"Can not connect with internet. Please turn on network and try again\""
+      "offset": 2424,
+      "length": 16,
+      "value": "\"confirm_button\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2692,
+      "offset": 2527,
+      "length": 38,
+      "value": "\"you_did_not_agree_to_share_your_data\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2644,
+      "length": 30,
+      "value": "\"cannot_connect_with_internet\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2733,
       "length": 10,
-      "value": "\"Internet\""
+      "value": "\"internet\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2788,
+      "offset": 2831,
       "length": 9,
       "value": "\"IOS0001\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2833,
-      "length": 9,
-      "value": "\"IOS0002\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 2876,
       "length": 9,
+      "value": "\"IOS0002\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2919,
+      "length": 9,
       "value": "\"IOS0003\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2922,
+      "offset": 2965,
       "length": 9,
       "value": "\"IOS0004\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2967,
+      "offset": 3010,
       "length": 9,
       "value": "\"IOS0005\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3324,
+      "offset": 3367,
       "length": 9,
       "value": "\"IOS0000\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3359,
+      "offset": 3402,
       "length": 9,
       "value": "\"IOS0001\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3394,
+      "offset": 3437,
       "length": 9,
       "value": "\"IOS0003\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3429,
+      "offset": 3472,
       "length": 9,
       "value": "\"IOS0010\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3464,
+      "offset": 3507,
       "length": 9,
       "value": "\"IOS0021\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3499,
+      "offset": 3542,
       "length": 9,
       "value": "\"IOS0022\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3534,
+      "offset": 3577,
       "length": 9,
       "value": "\"IOS0023\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3569,
+      "offset": 3612,
       "length": 9,
       "value": "\"IOS0052\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3624,
+      "offset": 3667,
       "length": 7,
       "value": "\"START\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3657,
+      "offset": 3700,
       "length": 9,
       "value": "\"SENDING\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3694,
+      "offset": 3737,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3734,
+      "offset": 3777,
       "length": 12,
       "value": "\"INCOMPLETE\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3774,
+      "offset": 3817,
       "length": 11,
       "value": "\"CANCELLED\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3811,
+      "offset": 3854,
       "length": 9,
       "value": "\"EXPIRED\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3842,
+      "offset": 3885,
       "length": 5,
       "value": "\"1.0\""
     },
@@ -11534,28 +11540,28 @@
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 2759,
+      "offset": 3370,
       "length": 20,
       "value": "\"Roboto-Regular.ttf\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 2820,
+      "offset": 3431,
       "length": 28,
       "value": "\"com.beigini.begini-ios-sdk\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 2922,
+      "offset": 3533,
       "length": 17,
       "value": "\"Roboto-Bold.ttf\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 2980,
+      "offset": 3591,
       "length": 28,
       "value": "\"com.beigini.begini-ios-sdk\""
     },
