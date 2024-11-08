@@ -246,6 +246,23 @@
       },
       {
         "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -1229,7 +1246,7 @@
           {
             "kind": "Function",
             "name": "BeginiDataSdkOptions",
-            "printedName": "BeginiDataSdkOptions(integration_id:api_key:isContactsEnabled:isProfileEnabled:u_id:isBatteryEnabled:isWifiEnabled:isGalleryExifDataEnabled:isCalendarEnabled:isLocationEnabled:primaryColor:delegate:presentingVC:)",
+            "printedName": "BeginiDataSdkOptions(integration_id:api_key:isContactsEnabled:isProfileEnabled:u_id:isBatteryEnabled:isWifiEnabled:isGalleryExifDataEnabled:isCalendarEnabled:isLocationEnabled:isPiiHashingEnabled:primaryColor:language:delegate:presentingVC:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1298,14 +1315,26 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "UIColor",
                 "printedName": "UIKit.UIColor",
                 "usr": "c:objc(cs)UIColor"
               },
               {
                 "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "BeginiAuthorizeDelegate",
-                "printedName": "begini_ios_sdk.BeginiAuthorizeDelegate",
+                "printedName": "any begini_ios_sdk.BeginiAuthorizeDelegate",
                 "usr": "s:14begini_ios_sdk23BeginiAuthorizeDelegateP"
               },
               {
@@ -1316,8 +1345,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO012primaryColor8delegate12presentingVCySS_SSS2bSSS5bSo7UIColorCAA0dE8Delegate_pSo16UIViewControllerCtF",
-            "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO012primaryColor8delegate12presentingVCySS_SSS2bSSS5bSo7UIColorCAA0dE8Delegate_pSo16UIViewControllerCtF",
+            "usr": "s:14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO00m10PiiHashingO012primaryColor8language8delegate12presentingVCySS_SSS2bSSS6bSo7UIColorCSSAA0dE8Delegate_pSo16UIViewControllerCtF",
+            "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO00m10PiiHashingO012primaryColor8language8delegate12presentingVCySS_SSS2bSSS6bSo7UIColorCSSAA0dE8Delegate_pSo16UIViewControllerCtF",
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "AccessControl"
@@ -1913,8 +1942,8 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2008,8 +2037,8 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2103,8 +2132,8 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2198,8 +2227,8 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2293,8 +2322,8 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2388,8 +2417,8 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2483,8 +2512,8 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2578,8 +2607,8 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -2672,8 +2701,8 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2767,8 +2796,8 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2862,8 +2891,8 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2965,8 +2994,8 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -3322,7 +3351,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3355,7 +3384,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3850,6 +3879,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -8100,6 +8136,34 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Data",
         "printedName": "Data",
@@ -8323,6 +8387,28 @@
             ],
             "isFromExtension": true,
             "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sha256",
+            "printedName": "sha256()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation4DataV14begini_ios_sdkE6sha256SSyF",
+            "mangledName": "$s10Foundation4DataV14begini_ios_sdkE6sha256SSyF",
+            "moduleName": "begini_ios_sdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -8620,33 +8706,19 @@
         "usr": "s:10Foundation4DataV",
         "mangledName": "$s10Foundation4DataV",
         "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
         "declAttributes": [
-          "Frozen"
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
         ],
         "isExternal": true,
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ReferenceConvertible",
-            "printedName": "ReferenceConvertible",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ReferenceType",
-                "printedName": "ReferenceType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSData",
-                    "printedName": "Foundation.NSData",
-                    "usr": "c:objc(cs)NSData"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation20ReferenceConvertibleP",
-            "mangledName": "$s10Foundation20ReferenceConvertibleP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -9039,24 +9111,25 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -9082,6 +9155,27 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -9093,6 +9187,632 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "String",
+        "printedName": "String",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sha256",
+            "printedName": "sha256()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS14begini_ios_sdkE6sha256SSyF",
+            "mangledName": "$sSS14begini_ios_sdkE6sha256SSyF",
+            "moduleName": "begini_ios_sdk",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:SS",
+        "mangledName": "$sSS",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "EagerMove",
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.String.UTF8View",
+                    "usr": "s:SS8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.String.UTF16View",
+                    "usr": "s:SS9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.String.UnicodeScalarView",
+                    "usr": "s:SS17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -9131,6 +9851,16 @@
         "usr": "s:10Foundation3URLV",
         "mangledName": "$s10Foundation3URLV",
         "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
         "isExternal": true,
         "conformances": [
           {
@@ -9239,6 +9969,41 @@
             "printedName": "_ExpressibleByFileReferenceLiteral",
             "usr": "s:s34_ExpressibleByFileReferenceLiteralP",
             "mangledName": "$ss34_ExpressibleByFileReferenceLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -9457,1425 +10222,1474 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
       "kind": "IntegerLiteral",
       "offset": 553,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
       "kind": "IntegerLiteral",
       "offset": 683,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
       "kind": "IntegerLiteral",
       "offset": 553,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
       "kind": "IntegerLiteral",
       "offset": 683,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
       "kind": "IntegerLiteral",
       "offset": 553,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
       "kind": "IntegerLiteral",
       "offset": 683,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
       "kind": "BooleanLiteral",
       "offset": 4520,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
       "kind": "Array",
       "offset": 12292,
       "length": 3189,
       "value": "[0x00000000, 0x77073096, 0xee0e612c, 0x990951ba, 0x076dc419, 0x706af48f, 0xe963a535, 0x9e6495a3, 0x0edb8832, 0x79dcb8a4, 0xe0d5e91e, 0x97d2d988, 0x09b64c2b, 0x7eb17cbd, 0xe7b82d07, 0x90bf1d91, 0x1db71064, 0x6ab020f2, 0xf3b97148, 0x84be41de, 0x1adad47d, 0x6ddde4eb, 0xf4d4b551, 0x83d385c7, 0x136c9856, 0x646ba8c0, 0xfd62f97a, 0x8a65c9ec, 0x14015c4f, 0x63066cd9, 0xfa0f3d63, 0x8d080df5, 0x3b6e20c8, 0x4c69105e, 0xd56041e4, 0xa2677172, 0x3c03e4d1, 0x4b04d447, 0xd20d85fd, 0xa50ab56b, 0x35b5a8fa, 0x42b2986c, 0xdbbbc9d6, 0xacbcf940, 0x32d86ce3, 0x45df5c75, 0xdcd60dcf, 0xabd13d59, 0x26d930ac, 0x51de003a, 0xc8d75180, 0xbfd06116, 0x21b4f4b5, 0x56b3c423, 0xcfba9599, 0xb8bda50f, 0x2802b89e, 0x5f058808, 0xc60cd9b2, 0xb10be924, 0x2f6f7c87, 0x58684c11, 0xc1611dab, 0xb6662d3d, 0x76dc4190, 0x01db7106, 0x98d220bc, 0xefd5102a, 0x71b18589, 0x06b6b51f, 0x9fbfe4a5, 0xe8b8d433, 0x7807c9a2, 0x0f00f934, 0x9609a88e, 0xe10e9818, 0x7f6a0dbb, 0x086d3d2d, 0x91646c97, 0xe6635c01, 0x6b6b51f4, 0x1c6c6162, 0x856530d8, 0xf262004e, 0x6c0695ed, 0x1b01a57b, 0x8208f4c1, 0xf50fc457, 0x65b0d9c6, 0x12b7e950, 0x8bbeb8ea, 0xfcb9887c, 0x62dd1ddf, 0x15da2d49, 0x8cd37cf3, 0xfbd44c65, 0x4db26158, 0x3ab551ce, 0xa3bc0074, 0xd4bb30e2, 0x4adfa541, 0x3dd895d7, 0xa4d1c46d, 0xd3d6f4fb, 0x4369e96a, 0x346ed9fc, 0xad678846, 0xda60b8d0, 0x44042d73, 0x33031de5, 0xaa0a4c5f, 0xdd0d7cc9, 0x5005713c, 0x270241aa, 0xbe0b1010, 0xc90c2086, 0x5768b525, 0x206f85b3, 0xb966d409, 0xce61e49f, 0x5edef90e, 0x29d9c998, 0xb0d09822, 0xc7d7a8b4, 0x59b33d17, 0x2eb40d81, 0xb7bd5c3b, 0xc0ba6cad, 0xedb88320, 0x9abfb3b6, 0x03b6e20c, 0x74b1d29a, 0xead54739, 0x9dd277af, 0x04db2615, 0x73dc1683, 0xe3630b12, 0x94643b84, 0x0d6d6a3e, 0x7a6a5aa8, 0xe40ecf0b, 0x9309ff9d, 0x0a00ae27, 0x7d079eb1, 0xf00f9344, 0x8708a3d2, 0x1e01f268, 0x6906c2fe, 0xf762575d, 0x806567cb, 0x196c3671, 0x6e6b06e7, 0xfed41b76, 0x89d32be0, 0x10da7a5a, 0x67dd4acc, 0xf9b9df6f, 0x8ebeeff9, 0x17b7be43, 0x60b08ed5, 0xd6d6a3e8, 0xa1d1937e, 0x38d8c2c4, 0x4fdff252, 0xd1bb67f1, 0xa6bc5767, 0x3fb506dd, 0x48b2364b, 0xd80d2bda, 0xaf0a1b4c, 0x36034af6, 0x41047a60, 0xdf60efc3, 0xa867df55, 0x316e8eef, 0x4669be79, 0xcb61b38c, 0xbc66831a, 0x256fd2a0, 0x5268e236, 0xcc0c7795, 0xbb0b4703, 0x220216b9, 0x5505262f, 0xc5ba3bbe, 0xb2bd0b28, 0x2bb45a92, 0x5cb36a04, 0xc2d7ffa7, 0xb5d0cf31, 0x2cd99e8b, 0x5bdeae1d, 0x9b64c2b0, 0xec63f226, 0x756aa39c, 0x026d930a, 0x9c0906a9, 0xeb0e363f, 0x72076785, 0x05005713, 0x95bf4a82, 0xe2b87a14, 0x7bb12bae, 0x0cb61b38, 0x92d28e9b, 0xe5d5be0d, 0x7cdcefb7, 0x0bdbdf21, 0x86d3d2d4, 0xf1d4e242, 0x68ddb3f8, 0x1fda836e, 0x81be16cd, 0xf6b9265b, 0x6fb077e1, 0x18b74777, 0x88085ae6, 0xff0f6a70, 0x66063bca, 0x11010b5c, 0x8f659eff, 0xf862ae69, 0x616bffd3, 0x166ccf45, 0xa00ae278, 0xd70dd2ee, 0x4e048354, 0x3903b3c2, 0xa7672661, 0xd06016f7, 0x4969474d, 0x3e6e77db, 0xaed16a4a, 0xd9d65adc, 0x40df0b66, 0x37d83bf0, 0xa9bcae53, 0xdebb9ec5, 0x47b2cf7f, 0x30b5ffe9, 0xbdbdf21c, 0xcabac28a, 0x53b39330, 0x24b4a3a6, 0xbad03605, 0xcdd70693, 0x54de5729, 0x23d967bf, 0xb3667a2e, 0xc4614ab8, 0x5d681b02, 0x2a6f2b94, 0xb40bbe37, 0xc30c8ea1, 0x5a05df1b, 0x2d02ef8d]"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Controllers\/RequestPermissionViewController.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/RequestPermissionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 503,
+      "offset": 1055,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Data+Gzip.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Data+Gzip.swift",
       "kind": "IntegerLiteral",
       "offset": 8677,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Data+Gzip.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Data+Gzip.swift",
       "kind": "IntegerLiteral",
       "offset": 8682,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
       "kind": "IntegerLiteral",
       "offset": 391,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
       "kind": "IntegerLiteral",
       "offset": 413,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
       "kind": "IntegerLiteral",
       "offset": 391,
       "length": 1,
-      "value": "1"
+      "value": "-1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
       "kind": "IntegerLiteral",
       "offset": 413,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
       "kind": "IntegerLiteral",
       "offset": 391,
       "length": 1,
-      "value": "1"
+      "value": "-1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
       "kind": "IntegerLiteral",
       "offset": 413,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "BooleanLiteral",
       "offset": 621,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "BooleanLiteral",
       "offset": 669,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "BooleanLiteral",
       "offset": 714,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "BooleanLiteral",
       "offset": 762,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "IntegerLiteral",
       "offset": 802,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "BooleanLiteral",
       "offset": 1042,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "BooleanLiteral",
       "offset": 1082,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "BooleanLiteral",
       "offset": 1122,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "BooleanLiteral",
       "offset": 1159,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "BooleanLiteral",
       "offset": 1207,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "BooleanLiteral",
       "offset": 1248,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "BooleanLiteral",
       "offset": 1289,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1332,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1338,
+      "offset": 1415,
       "length": 5,
       "value": "187.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1344,
+      "offset": 1421,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1358,
+      "offset": 1435,
       "length": 4,
       "value": "28.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1363,
+      "offset": 1440,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1376,
+      "offset": 1453,
       "length": 5,
       "value": "109.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1382,
+      "offset": 1459,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 1396,
+      "offset": 1473,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Serialization.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Serialization.swift",
       "kind": "BooleanLiteral",
       "offset": 1502,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "IntegerLiteral",
       "offset": 173,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "IntegerLiteral",
       "offset": 182,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "IntegerLiteral",
       "offset": 192,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "IntegerLiteral",
       "offset": 173,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "IntegerLiteral",
       "offset": 182,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "IntegerLiteral",
       "offset": 192,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 479,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 827,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 1065,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 1075,
       "length": 5,
       "value": "360.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 1098,
       "length": 5,
       "value": "360.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 993,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "BooleanLiteral",
       "offset": 1268,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "BooleanLiteral",
       "offset": 1458,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "BooleanLiteral",
       "offset": 1613,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 1776,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 2017,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 2034,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 1940,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 2409,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 2426,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 2497,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 2318,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 2680,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 2697,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 2762,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 2578,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "BooleanLiteral",
       "offset": 5936,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "BooleanLiteral",
       "offset": 6921,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 8488,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 8586,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "BooleanLiteral",
       "offset": 8620,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "BooleanLiteral",
       "offset": 8814,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "BooleanLiteral",
       "offset": 8853,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 8902,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 9001,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 9106,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 9148,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "Array",
       "offset": 9284,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 9546,
       "length": 7,
       "value": "0.00015"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 632,
+      "offset": 777,
       "length": 5,
       "value": "230.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 638,
+      "offset": 783,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 652,
+      "offset": 797,
       "length": 5,
       "value": "232.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 658,
+      "offset": 803,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 671,
+      "offset": 816,
       "length": 5,
       "value": "232.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 677,
+      "offset": 822,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 691,
+      "offset": 836,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/WebServicesHelper.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/WebServicesHelper.swift",
       "kind": "StringLiteral",
       "offset": 271,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/FileManager+ZIP.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/FileManager+ZIP.swift",
       "kind": "BooleanLiteral",
       "offset": 1849,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/FileManager+ZIP.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/FileManager+ZIP.swift",
       "kind": "BooleanLiteral",
       "offset": 5513,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+MemoryFile.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+MemoryFile.swift",
       "kind": "IntegerLiteral",
       "offset": 673,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Models\/Models.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Models\/Models.swift",
       "kind": "BooleanLiteral",
-      "offset": 1393,
+      "offset": 1419,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Models\/Models.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Models\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 1592,
+      "offset": 1618,
       "length": 15,
       "value": "\"calendar_data\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Models\/Models.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Models\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 1790,
+      "offset": 1816,
       "length": 15,
       "value": "\"contacts_data\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Models\/Models.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Models\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 1980,
+      "offset": 2006,
       "length": 19,
       "value": "\"gallery_exif_data\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 415,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 418,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 642,
       "length": 5,
       "value": "0o644"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 754,
       "length": 5,
       "value": "0o755"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 849,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 895,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 942,
       "length": 10,
       "value": "0x06054b50"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 990,
       "length": 10,
       "value": "0x04034b50"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 1037,
       "length": 10,
       "value": "0x08074b50"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 1086,
       "length": 10,
       "value": "0x02014b50"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "StringLiteral",
       "offset": 1119,
       "length": 8,
       "value": "\"memory\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 4758,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 4874,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 4758,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 4874,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 4758,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 4874,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 5034,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 5132,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 5034,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 5132,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 5034,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 5132,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
       "kind": "IntegerLiteral",
       "offset": 5667,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 652,
       "length": 47,
       "value": "\"https:\/\/api.begini.co\/v1\/sessions-management\/\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 726,
       "length": 43,
       "value": "\"https:\/\/api.begini.co\/v2\/master\/ios-data\/\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 821,
       "length": 8,
       "value": "\"tokens\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 871,
       "length": 15,
       "value": "\"session-start\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 926,
       "length": 13,
       "value": "\"session-end\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 982,
       "length": 16,
       "value": "\"session-cancel\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1041,
       "length": 17,
       "value": "\"session-expired\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1100,
       "length": 15,
       "value": "\"presigned-url\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1153,
       "length": 10,
       "value": "\"metadata\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1227,
       "length": 16,
       "value": "\"integration_id\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1266,
       "length": 5,
       "value": "\"uid\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1297,
       "length": 9,
       "value": "\"api_key\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1331,
       "length": 9,
       "value": "\"Api-key\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1363,
       "length": 6,
       "value": "\"file\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1401,
       "length": 15,
       "value": "\"service_token\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1448,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1487,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1517,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1548,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1646,
+      "offset": 1676,
       "length": 39,
-      "value": "\"Something went wrong please try again\""
+      "value": "\"something_went_wrong_please_try_again\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1743,
-      "length": 47,
-      "value": "\"No internet connection please try again later\""
-    },
-    {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1824,
-      "length": 128,
-      "value": "\"Sorry your data submission session has expired. You will be taken back to the previous page, where you can start a new session\""
-    },
-    {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1984,
+      "offset": 1806,
       "length": 41,
-      "value": "\"SDK authentication failed. Error code: \""
+      "value": "\"no_internet_connection_please_try_again\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2066,
-      "length": 41,
-      "value": "\"SDK authentication failed. Error code: \""
+      "offset": 1912,
+      "length": 17,
+      "value": "\"session_expired\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2143,
-      "length": 77,
-      "value": "\"Your data submission has been cancelled. We are unable to analyze your data\""
+      "offset": 1993,
+      "length": 15,
+      "value": "\"invalid_token\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2256,
-      "length": 63,
-      "value": "\"Thank you for your time. Your data has already been submitted\""
+      "offset": 2081,
+      "length": 15,
+      "value": "\"invalid_token\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2356,
-      "length": 23,
-      "value": "\"Incomplete submission\""
+      "offset": 2164,
+      "length": 19,
+      "value": "\"cancelled_message\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2412,
-      "length": 9,
-      "value": "\"Confirm\""
+      "offset": 2251,
+      "length": 19,
+      "value": "\"already_submitted\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2476,
-      "length": 73,
-      "value": "\"You did not agree to share your data.\nAre you sure you want to cancel?\""
+      "offset": 2339,
+      "length": 20,
+      "value": "\"incomplete_message\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2596,
-      "length": 69,
-      "value": "\"Can not connect with internet. Please turn on network and try again\""
+      "offset": 2424,
+      "length": 16,
+      "value": "\"confirm_button\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2692,
+      "offset": 2527,
+      "length": 38,
+      "value": "\"you_did_not_agree_to_share_your_data\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2644,
+      "length": 30,
+      "value": "\"cannot_connect_with_internet\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2733,
       "length": 10,
-      "value": "\"Internet\""
+      "value": "\"internet\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2788,
+      "offset": 2797,
+      "length": 4,
+      "value": "\"ok\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2859,
+      "length": 8,
+      "value": "\"cancel\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2928,
+      "length": 11,
+      "value": "\"try_again\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2993,
+      "length": 8,
+      "value": "\"btn_no\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3056,
+      "length": 9,
+      "value": "\"btn_yes\""
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3158,
       "length": 9,
       "value": "\"IOS0001\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2833,
+      "offset": 3203,
       "length": 9,
       "value": "\"IOS0002\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2876,
+      "offset": 3246,
       "length": 9,
       "value": "\"IOS0003\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2922,
+      "offset": 3292,
       "length": 9,
       "value": "\"IOS0004\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2967,
+      "offset": 3337,
       "length": 9,
       "value": "\"IOS0005\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3324,
+      "offset": 3694,
       "length": 9,
       "value": "\"IOS0000\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3359,
+      "offset": 3729,
       "length": 9,
       "value": "\"IOS0001\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3394,
+      "offset": 3764,
       "length": 9,
       "value": "\"IOS0003\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3429,
+      "offset": 3799,
       "length": 9,
       "value": "\"IOS0010\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3464,
+      "offset": 3834,
       "length": 9,
       "value": "\"IOS0021\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3499,
+      "offset": 3869,
       "length": 9,
       "value": "\"IOS0022\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3534,
+      "offset": 3904,
       "length": 9,
       "value": "\"IOS0023\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3569,
+      "offset": 3939,
       "length": 9,
       "value": "\"IOS0052\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3624,
+      "offset": 3994,
       "length": 7,
       "value": "\"START\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3657,
+      "offset": 4027,
       "length": 9,
       "value": "\"SENDING\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3694,
+      "offset": 4064,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3734,
+      "offset": 4104,
       "length": 12,
       "value": "\"INCOMPLETE\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3774,
+      "offset": 4144,
       "length": 11,
       "value": "\"CANCELLED\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3811,
+      "offset": 4181,
       "length": 9,
       "value": "\"EXPIRED\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Constants.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3842,
+      "offset": 4212,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 780,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 842,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 780,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 842,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 780,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 842,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 1159,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 1181,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 1202,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 1227,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 1159,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 1181,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 1202,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 1227,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 1159,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 1181,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 1202,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 1227,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 1753,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 3334,
       "length": 2,
       "value": "46"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Extensions.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 2759,
+      "offset": 3370,
       "length": 20,
       "value": "\"Roboto-Regular.ttf\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Extensions.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 2820,
+      "offset": 3431,
       "length": 28,
       "value": "\"com.beigini.begini-ios-sdk\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Extensions.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 2922,
+      "offset": 3533,
       "length": 17,
       "value": "\"Roboto-Bold.ttf\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/Extensions.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 2980,
+      "offset": 3591,
       "length": 28,
       "value": "\"com.beigini.begini-ios-sdk\""
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
       "kind": "IntegerLiteral",
       "offset": 352,
       "length": 10,
       "value": "0x06064b50"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
       "kind": "IntegerLiteral",
       "offset": 401,
       "length": 10,
       "value": "0x07064b50"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
       "kind": "IntegerLiteral",
       "offset": 483,
       "length": 6,
       "value": "0x0001"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
       "kind": "IntegerLiteral",
       "offset": 483,
       "length": 6,
       "value": "0x0001"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
       "kind": "IntegerLiteral",
       "offset": 483,
       "length": 6,
       "value": "0x0001"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
       "kind": "IntegerLiteral",
       "offset": 1288,
       "length": 2,
       "value": "56"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
       "kind": "IntegerLiteral",
       "offset": 1616,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ReadingDeprecated.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ReadingDeprecated.swift",
       "kind": "BooleanLiteral",
       "offset": 532,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ReadingDeprecated.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ReadingDeprecated.swift",
       "kind": "BooleanLiteral",
       "offset": 884,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry+ZIP64.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry+ZIP64.swift",
       "kind": "IntegerLiteral",
       "offset": 709,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Reading.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Reading.swift",
       "kind": "BooleanLiteral",
       "offset": 1152,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/eldhojohnson\/Desktop\/xcode\/emvigo\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Reading.swift",
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Reading.swift",
       "kind": "BooleanLiteral",
       "offset": 4387,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Library\/Developer\/Xcode\/DerivedData\/begini_ios_sdk-ekmdmcdaymgaqnchjpojnqwddwll\/Build\/Intermediates.noindex\/ArchiveIntermediates\/begini_ios_sdk\/IntermediateBuildFilesPath\/begini_ios_sdk.build\/Release-iphoneos\/begini_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 12,
+      "value": "\"back-white\""
     }
   ]
 }

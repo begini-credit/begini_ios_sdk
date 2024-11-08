@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		DRsOjXzjRxciNPNEphUS3OoIHr4=
+		mzLqRgtf/psi2CQqxrZB6bIa/XY=
 		</data>
 		<key>Headers/begini_ios_sdk-Swift.h</key>
 		<data>
-		DO/j84zDrFzA4sA238GgB7gra68=
+		OTUVe6zfNTT0fQkx8onSxraiFzA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KmSVi08wU5sgwnQPlFT12cxeh/c=
+		CAtFYqJg2s3xeCrEKvVrb0qR5zc=
 		</data>
 		<key>LICENSE.txt</key>
 		<data>
@@ -22,23 +22,23 @@
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		faAXDFKlPIACO5chqUJQamlCuuY=
+		z+RyyfKiPPMe8G92+D1PrtKAxlU=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		g1FMrDO7PE0lL9Eib5VrrWlrCzQ=
+		jbbT0iJR/p5m4ZSSQqbEjNT/7ic=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		FcgL3Vj1GcuL+dxLCUwxrCmlaF4=
+		kfkDRs5b6MhjocOXmW+dv+DwsZo=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		g1FMrDO7PE0lL9Eib5VrrWlrCzQ=
+		jbbT0iJR/p5m4ZSSQqbEjNT/7ic=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		r2r+4aDnPXFrpP0nT0sUcizoqiE=
+		Wm991Scb1V96iqXDwNZD9p/uUAc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Permissions.storyboardc/8d2-WJ-ySX-view-10L-Ye-f67.nib</key>
 		<data>
-		r2VOY0dSENTYXFW3byiRWtKvSFY=
+		NxPegpyj6p8pyMPmc56KHB07EHo=
 		</data>
 		<key>Permissions.storyboardc/DataCollectionViewController.nib</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Permissions.storyboardc/E92-r4-oYl-view-mqo-Vv-vxP.nib</key>
 		<data>
-		NyOdm4Ap/mQMFSlTjw2M7IWWYLU=
+		7BOwRpNkeH9pf79ibuV4PX0IYwY=
 		</data>
 		<key>Permissions.storyboardc/Info.plist</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Permissions.storyboardc/UINavigationController-Nir-re-mvy.nib</key>
 		<data>
-		NwdC9WRbu09olc/6TU52EduZHl4=
+		EyFc3FSEJOwb2ddwyPwffLdatUE=
 		</data>
 		<key>Roboto-Bold.ttf</key>
 		<data>
@@ -76,6 +76,24 @@
 		<data>
 		hNECSIc4sOu8elCHlz7/vVTJW9U=
 		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ChHYJT0N1GwIERVF5xRLjN5ts5M=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>th.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NxIRxVwulyOXf1rsrfYY5eDAXmI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -83,14 +101,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rB/ojw3wqWB2jJ2N0wfYETO3p1Ha2JpE8v8qDeK6Rh4=
+			IGtjqjGHhFKjjiDhIZcwmC9tvL6NbthUcHKaQrlrXTk=
 			</data>
 		</dict>
 		<key>Headers/begini_ios_sdk-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4WhmIvmcA7DotzRNG4nbS4wR4fOkeS74o/72jA1VMMc=
+			QUHdly4aqAIcP6y9ZExjyk0ZGprOHq0sVrRCKJHz2w4=
 			</data>
 		</dict>
 		<key>LICENSE.txt</key>
@@ -104,35 +122,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1/PffyzoOrKdp7KsZLnmzOAS/+g3O61sdxpEQ4ljdYA=
+			/1krIcA3+nHhmVNtWyhLv3V7MFiAq5bQCTCM60kTbQM=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3YNv/KM2JqyGDKw6P5UXZ7jo8QMnbPKEDDDQRdQDGGk=
+			5IBadNGmMi7p7hqKr2AdB9WmXZzxFTA7/O2BqtIOIFs=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1/W1IWDR1bFh41Z0wzJHJuAj3YCE2H8lyaMiTa4cENg=
+			vj26vf02OWK+YVaT1Z2ILzLDCjU/DJeN/dM8DvineC4=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3YNv/KM2JqyGDKw6P5UXZ7jo8QMnbPKEDDDQRdQDGGk=
+			5IBadNGmMi7p7hqKr2AdB9WmXZzxFTA7/O2BqtIOIFs=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K30lXdEPU5rPmlUyg4pZ/lySCcrTi5wwYaUlNI1ZL5M=
+			s2/ZiyGXypI5q2jzGrklVejsV8dHBrBo5xAouykU33I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -146,7 +164,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W6MBSIMqToSmtq/NWSFIDv8t7Z7gpl2BPlmUMOcmQjE=
+			tNnrzrdFr4xCHK1eQSUcv7gAEN591RrS4zCQnsT/Wxs=
 			</data>
 		</dict>
 		<key>Permissions.storyboardc/DataCollectionViewController.nib</key>
@@ -160,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8dlqWtgIOZICynl1VHQtmH2sTKsKS3x0z4a4DUy2lKg=
+			cQpAdTcEDG413lUja8GB74bA8os1jUQoRcGk+CGylcs=
 			</data>
 		</dict>
 		<key>Permissions.storyboardc/Info.plist</key>
@@ -181,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PbP3OOsFRbVdDQfQoQAIK4HwirhSFxVwl76eXdy4G/I=
+			Bftexj5RLMohyugi6pyyDDb5NkDKGiduYRS9XWFs5os=
 			</data>
 		</dict>
 		<key>Roboto-Bold.ttf</key>
@@ -197,6 +215,24 @@
 			<data>
 			MZz/bnox8PKkHEddykKJCqXRn+FgF+IpD4wdThT3ZIE=
 			</data>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AYIjs0wOmyv/HApTSaw8A0jANQ0yYG/3nnwAqZk7e0U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>th.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RqoXnquVJTmI18QBgWUKVQqzhocTJDJH/jR4WSwKeJc=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
