@@ -11043,16 +11043,16 @@
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 406,
-      "length": 50,
-      "value": "\"https:\/\/qa-api.begini.co\/v1\/sessions-management\/\""
+      "offset": 652,
+      "length": 47,
+      "value": "\"https:\/\/api.begini.co\/v1\/sessions-management\/\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 483,
-      "length": 46,
-      "value": "\"https:\/\/qa-api.begini.co\/v2\/master\/ios-data\/\""
+      "offset": 726,
+      "length": 43,
+      "value": "\"https:\/\/api.begini.co\/v2\/master\/ios-data\/\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",

@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		QUWlkUOpJEJwNSV8xeoGjOQJaHA=
+		z+RyyfKiPPMe8G92+D1PrtKAxlU=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		dCvyc8QMw0qZxfx/pct69eIIZds=
+		Wm991Scb1V96iqXDwNZD9p/uUAc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YWOzSAtrvu7jp54QkwrLlRFbhw5LuaLdHEyZdrrifMY=
+			/1krIcA3+nHhmVNtWyhLv3V7MFiAq5bQCTCM60kTbQM=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -150,7 +150,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xkS0V1QBJ/bZmM29A7Mzfpr5Isc2KY0VtRvB+P8AafM=
+			s2/ZiyGXypI5q2jzGrklVejsV8dHBrBo5xAouykU33I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
