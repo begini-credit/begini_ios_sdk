@@ -284,6 +284,13 @@
       },
       {
         "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1246,7 +1253,7 @@
           {
             "kind": "Function",
             "name": "BeginiDataSdkOptions",
-            "printedName": "BeginiDataSdkOptions(integration_id:api_key:isContactsEnabled:isProfileEnabled:u_id:isBatteryEnabled:isWifiEnabled:isGalleryExifDataEnabled:isCalendarEnabled:isLocationEnabled:isPiiHashingEnabled:primaryColor:language:delegate:presentingVC:)",
+            "printedName": "BeginiDataSdkOptions(integration_id:api_key:isContactsEnabled:isProfileEnabled:u_id:isBatteryEnabled:isWifiEnabled:isGalleryExifDataEnabled:isCalendarEnabled:isLocationEnabled:isPiiHashingEnabled:primaryColor:language:isEncryptionEnabled:delegate:presentingVC:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1333,6 +1340,12 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "BeginiAuthorizeDelegate",
                 "printedName": "any begini_ios_sdk.BeginiAuthorizeDelegate",
                 "usr": "s:14begini_ios_sdk23BeginiAuthorizeDelegateP"
@@ -1345,8 +1358,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO00m10PiiHashingO012primaryColor8language8delegate12presentingVCySS_SSS2bSSS6bSo7UIColorCSSAA0dE8Delegate_pSo16UIViewControllerCtF",
-            "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO00m10PiiHashingO012primaryColor8language8delegate12presentingVCySS_SSS2bSSS6bSo7UIColorCSSAA0dE8Delegate_pSo16UIViewControllerCtF",
+            "usr": "s:14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO00m10PiiHashingO012primaryColor8language0m10EncryptionO08delegate12presentingVCySS_SSS2bSSS6bSo7UIColorCSSSbAA0dE8Delegate_pSo16UIViewControllerCtF",
+            "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC0D14DataSdkOptions14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO00m10PiiHashingO012primaryColor8language0m10EncryptionO08delegate12presentingVCySS_SSS2bSSS6bSo7UIColorCSSSbAA0dE8Delegate_pSo16UIViewControllerCtF",
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "AccessControl"
@@ -3973,6 +3986,34 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "AWSCore",
+        "printedName": "AWSCore",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "AWSKMS",
+        "printedName": "AWSKMS",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
       },
       {
         "kind": "Import",
@@ -10433,50 +10474,57 @@
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1410,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1415,
+      "offset": 1568,
       "length": 5,
       "value": "187.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1421,
+      "offset": 1574,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1435,
+      "offset": 1588,
       "length": 4,
       "value": "28.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1440,
+      "offset": 1593,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1453,
+      "offset": 1606,
       "length": 5,
       "value": "109.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1459,
+      "offset": 1612,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 1473,
+      "offset": 1626,
       "length": 1,
       "value": "1"
     },
@@ -11043,16 +11091,16 @@
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 652,
-      "length": 47,
-      "value": "\"https:\/\/api.begini.co\/v1\/sessions-management\/\""
+      "offset": 406,
+      "length": 50,
+      "value": "\"https:\/\/qa-api.begini.co\/v1\/sessions-management\/\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 726,
-      "length": 43,
-      "value": "\"https:\/\/api.begini.co\/v2\/master\/ios-data\/\""
+      "offset": 483,
+      "length": 46,
+      "value": "\"https:\/\/qa-api.begini.co\/v2\/master\/ios-data\/\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/Constants.swift",

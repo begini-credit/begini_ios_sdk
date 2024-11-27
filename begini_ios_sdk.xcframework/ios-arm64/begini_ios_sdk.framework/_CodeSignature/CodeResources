@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		mzLqRgtf/psi2CQqxrZB6bIa/XY=
+		icIF2+bXYV5uG0fLbbF40Dt6IgY=
 		</data>
 		<key>Headers/begini_ios_sdk-Swift.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CAtFYqJg2s3xeCrEKvVrb0qR5zc=
+		XRQtXjtcOZpGtjo5XCMsxSSUtAA=
 		</data>
 		<key>LICENSE.txt</key>
 		<data>
@@ -22,23 +22,23 @@
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		z+RyyfKiPPMe8G92+D1PrtKAxlU=
+		oYrFqyBqxagG+pwdD0ocbjjhNn8=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		jbbT0iJR/p5m4ZSSQqbEjNT/7ic=
+		zE4FwijFyHTfRmsza3o3AeZzczQ=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		kfkDRs5b6MhjocOXmW+dv+DwsZo=
+		Ix1JPCwL0EDG2rvjh6NJ/aYfLn0=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		jbbT0iJR/p5m4ZSSQqbEjNT/7ic=
+		zE4FwijFyHTfRmsza3o3AeZzczQ=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Wm991Scb1V96iqXDwNZD9p/uUAc=
+		waxYQgMSZopg3/4kukW+L2cSefo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IGtjqjGHhFKjjiDhIZcwmC9tvL6NbthUcHKaQrlrXTk=
+			afKPykzgnYO0dm4y0U1G5/I4FaM010Ja+airBTTWOZg=
 			</data>
 		</dict>
 		<key>Headers/begini_ios_sdk-Swift.h</key>
@@ -122,35 +122,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/1krIcA3+nHhmVNtWyhLv3V7MFiAq5bQCTCM60kTbQM=
+			EDktkj6jkC0aq3F4aHxoBgZo23yP9IQOOrcabdhnBJw=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5IBadNGmMi7p7hqKr2AdB9WmXZzxFTA7/O2BqtIOIFs=
+			WK5Hr6SQs6SzXA8tfd6fK/rX3u2wdOCM84rxXwkZajw=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vj26vf02OWK+YVaT1Z2ILzLDCjU/DJeN/dM8DvineC4=
+			9eilw+Y1Oo8mPlQ/JmrbScr5pvqputevqsTPbzzHUZs=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5IBadNGmMi7p7hqKr2AdB9WmXZzxFTA7/O2BqtIOIFs=
+			WK5Hr6SQs6SzXA8tfd6fK/rX3u2wdOCM84rxXwkZajw=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s2/ZiyGXypI5q2jzGrklVejsV8dHBrBo5xAouykU33I=
+			2vs031hcCth/zyaM1XB+NmqnFreF5ji/m8Bu2ONA7Ec=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
