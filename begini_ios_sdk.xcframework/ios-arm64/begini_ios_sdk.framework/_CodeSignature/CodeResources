@@ -8,6 +8,34 @@
 		<data>
 		icIF2+bXYV5uG0fLbbF40Dt6IgY=
 		</data>
+		<key>Frameworks/AWSCore.framework/AWSCore</key>
+		<data>
+		3LYRJitjgMACxPNPMQjCooA5bnA=
+		</data>
+		<key>Frameworks/AWSCore.framework/Info.plist</key>
+		<data>
+		J2nq6rFvWBmt3z/t0ZI0f0mtDZg=
+		</data>
+		<key>Frameworks/AWSCore.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		pMYPSf5htlszXpXkljmBArmltPQ=
+		</data>
+		<key>Frameworks/AWSCore.framework/strip-frameworks.sh</key>
+		<data>
+		bENFeKfMHTdHyWS5AygjhdAo44Q=
+		</data>
+		<key>Frameworks/AWSKMS.framework/AWSKMS</key>
+		<data>
+		fY1EgUTqTH18qLcYKWsGfObMjgs=
+		</data>
+		<key>Frameworks/AWSKMS.framework/Info.plist</key>
+		<data>
+		3nIoJ7dbCuIxlyfbKsXv2fIUZ0k=
+		</data>
+		<key>Frameworks/AWSKMS.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		WWhlLRp5k2wsGI+PkPXOPw3FJzs=
+		</data>
 		<key>Headers/begini_ios_sdk-Swift.h</key>
 		<data>
 		OTUVe6zfNTT0fQkx8onSxraiFzA=
@@ -102,6 +130,55 @@
 			<key>hash2</key>
 			<data>
 			afKPykzgnYO0dm4y0U1G5/I4FaM010Ja+airBTTWOZg=
+			</data>
+		</dict>
+		<key>Frameworks/AWSCore.framework/AWSCore</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tOn6ywdQNCRNusH71cf9c4TgKnMoSdX9TgIICO5GdT8=
+			</data>
+		</dict>
+		<key>Frameworks/AWSCore.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			puckhftD6QckhfLnj7XM0yatecXtL4fFWfwoizXKsmI=
+			</data>
+		</dict>
+		<key>Frameworks/AWSCore.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/xtdxoyDxQSImZ02Cewe2Sfbutih0+5AqRf6TXwyctE=
+			</data>
+		</dict>
+		<key>Frameworks/AWSCore.framework/strip-frameworks.sh</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TdoX67LzludHG3MJM/ykgPmTswRtyXdokveq/f6XloI=
+			</data>
+		</dict>
+		<key>Frameworks/AWSKMS.framework/AWSKMS</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Z4eu7k+EzzorLh+NqMmugxTiEdScolwgmzKwtmIkI5w=
+			</data>
+		</dict>
+		<key>Frameworks/AWSKMS.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UTbJir11EKek8q5GYqcR2m+D0VOpOtxx9lcso7Bxyl0=
+			</data>
+		</dict>
+		<key>Frameworks/AWSKMS.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5je3v4IFUUNu8Emec/91g4ibohsKxE9ljUMmaafCTBc=
 			</data>
 		</dict>
 		<key>Headers/begini_ios_sdk-Swift.h</key>
