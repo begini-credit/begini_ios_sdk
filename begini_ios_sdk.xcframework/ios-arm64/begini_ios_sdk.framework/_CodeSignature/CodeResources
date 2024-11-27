@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/AWSCore.framework/AWSCore</key>
 		<data>
-		8CNkH7xa6nWhW4o+d9T5MG4cCb4=
+		5JahsLEvwAhVXoMnR9G2XJX2v48=
 		</data>
 		<key>Frameworks/AWSCore.framework/Info.plist</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/AWSKMS.framework/AWSKMS</key>
 		<data>
-		+e9Zl0ZLRajVN0aJ/ELcAMvfFks=
+		J4X3rVOvhQtAYYP66xzgvXmkFM8=
 		</data>
 		<key>Frameworks/AWSKMS.framework/Info.plist</key>
 		<data>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JMIehDwifWOnuBFiJv8B7jREJtynO7rSNdd9II327rA=
+			KzgX8yOHT8X4p9SYu9ctz1rVQNFqPGJGZMfiYN4htKU=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCore.framework/Info.plist</key>
@@ -179,7 +179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UyZNCEQYE3Pe3tlduafJD+iIIhcNhnGNFAja/XHhGj4=
+			jHwnL69ZxDCYfWqXeXNxoUiw0ZGDnSm3rN5xeQhaFtw=
 			</data>
 		</dict>
 		<key>Frameworks/AWSKMS.framework/Info.plist</key>
