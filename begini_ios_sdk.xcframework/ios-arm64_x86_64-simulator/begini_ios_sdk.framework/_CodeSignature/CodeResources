@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/AWSCore.framework/AWSCore</key>
 		<data>
-		QS0nTa65kvDJfqxaggqrixU65NA=
+		NSdDOuhWqIhKsqhDHV8E0hGjGAs=
 		</data>
 		<key>Frameworks/AWSCore.framework/Info.plist</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/AWSCore.framework/_CodeSignature/CodeResources</key>
 		<data>
-		pNBWu02vIbqho3iLts/YhUJpT6o=
+		vgyH3tW15Qmxl78QMXIfeZbLn4E=
 		</data>
 		<key>Frameworks/AWSCore.framework/strip-frameworks.sh</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/AWSKMS.framework/AWSKMS</key>
 		<data>
-		xdveoyK3kmUWAH/5/FStO2vyV30=
+		R74Gb/RobmIJ0FjP/pDOju4TOjg=
 		</data>
 		<key>Frameworks/AWSKMS.framework/Info.plist</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Frameworks/AWSKMS.framework/_CodeSignature/CodeResources</key>
 		<data>
-		wnvIshYYOA2gbkOn9qMGh4E1Fns=
+		9PMxxbqI8VeQ5l9QFxc4U5fXNxQ=
 		</data>
 		<key>Headers/begini_ios_sdk-Swift.h</key>
 		<data>
@@ -164,7 +164,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uNlM2r6Muzi4ukaYOGTThCaXaXhzWUOPFkT9QeofHgY=
+			YB053zrNK+hKafFM9fuYmfmbNHZ1WOxQ1yK1D3dgztI=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCore.framework/Info.plist</key>
@@ -185,7 +185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wiZL4n4sgMkWstjjeodywMqsgbXO8OUC40Cc3zO43iA=
+			UC3vrBQVsRAZn5SVBAI4b9/juWvXGbEXZmL7GnXmtFQ=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCore.framework/strip-frameworks.sh</key>
@@ -199,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UTS3q4EIXjSMlBliO1WKl4cQ4irDjmxGA2XCPZOQn9o=
+			kVZ16w0Ue2QBPg0uqUXdFh0kXenlCaiGrbhVGmhA138=
 			</data>
 		</dict>
 		<key>Frameworks/AWSKMS.framework/Info.plist</key>
@@ -220,7 +220,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/vO6joWDJNGqTyTWK11+M51c1ADCZPEbZMDAtoq13mw=
+			aVsyLyB/NwHfgfAsu2JDNshbd++mxcbDl5T3NDqJiUg=
 			</data>
 		</dict>
 		<key>Headers/begini_ios_sdk-Swift.h</key>

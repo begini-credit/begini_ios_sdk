@@ -4,29 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/AWSKMS.h</key>
-		<data>
-		4x3zPFYNAbTXjsfLh1uBRmPIRo4=
-		</data>
-		<key>Headers/AWSKMSModel.h</key>
-		<data>
-		8dqhcDyVgiquvmuFlllONq1RiK8=
-		</data>
-		<key>Headers/AWSKMSResources.h</key>
-		<data>
-		OeLbvvCbw55hgkie4wfg5zy3zU8=
-		</data>
-		<key>Headers/AWSKMSService.h</key>
-		<data>
-		zIaxqPI2gkDForYpBP8wM1G2Qyc=
-		</data>
 		<key>Info.plist</key>
 		<data>
 		46I1ndNvASm7NKhZwdO03axeGNA=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		IHDEQsLVEkkWBrGMQEB6SZ4uNIE=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -35,41 +15,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/AWSKMS.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MXMoP8G0mN96zHe+bAsVuR5Zpzd7skHCATUJ5+6czP0=
-			</data>
-		</dict>
-		<key>Headers/AWSKMSModel.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EDkHSmUG35aFDNxWX/U600LuJvJ7qngSmLpK9vgfRKc=
-			</data>
-		</dict>
-		<key>Headers/AWSKMSResources.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yEx4V3Gz1IosRwMi3phfZ0wLrzPlmW4Xqs976SWICXI=
-			</data>
-		</dict>
-		<key>Headers/AWSKMSService.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wYsZPULaF6cRi0fL9IL2LejYz+bz3sVmWZIbTbRxZVw=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pL+IPuCnP0leYPDys+OjT7SeWaYwmsDN+BY8Wi7+OaA=
-			</data>
-		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>

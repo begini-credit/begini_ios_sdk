@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/AWSCore.framework/AWSCore</key>
 		<data>
-		3LYRJitjgMACxPNPMQjCooA5bnA=
+		pJwigK5eSSW/u2FWAFqCcxfy8u4=
 		</data>
 		<key>Frameworks/AWSCore.framework/Info.plist</key>
 		<data>
@@ -20,13 +20,17 @@
 		<data>
 		pMYPSf5htlszXpXkljmBArmltPQ=
 		</data>
+		<key>Frameworks/AWSCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		UwvcqxYcGRBq92p1j4ig42LT3iU=
+		</data>
 		<key>Frameworks/AWSCore.framework/strip-frameworks.sh</key>
 		<data>
 		bENFeKfMHTdHyWS5AygjhdAo44Q=
 		</data>
 		<key>Frameworks/AWSKMS.framework/AWSKMS</key>
 		<data>
-		fY1EgUTqTH18qLcYKWsGfObMjgs=
+		3pD5DIPZ486sSPVoPX4ASNbV8dI=
 		</data>
 		<key>Frameworks/AWSKMS.framework/Info.plist</key>
 		<data>
@@ -35,6 +39,10 @@
 		<key>Frameworks/AWSKMS.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		WWhlLRp5k2wsGI+PkPXOPw3FJzs=
+		</data>
+		<key>Frameworks/AWSKMS.framework/_CodeSignature/CodeResources</key>
+		<data>
+		p1wE9bYxQf6VJUvB4wvJp7KGvPQ=
 		</data>
 		<key>Headers/begini_ios_sdk-Swift.h</key>
 		<data>
@@ -136,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tOn6ywdQNCRNusH71cf9c4TgKnMoSdX9TgIICO5GdT8=
+			YfgcKatzEFBk4v3CjaQLCWkeyIEP3Yl3mYAt9ObWhm8=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCore.framework/Info.plist</key>
@@ -153,6 +161,13 @@
 			/xtdxoyDxQSImZ02Cewe2Sfbutih0+5AqRf6TXwyctE=
 			</data>
 		</dict>
+		<key>Frameworks/AWSCore.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GBD1zAOVxCu7lgualAHnOEGToQGf66D371nsw+HUHBY=
+			</data>
+		</dict>
 		<key>Frameworks/AWSCore.framework/strip-frameworks.sh</key>
 		<dict>
 			<key>hash2</key>
@@ -164,7 +179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z4eu7k+EzzorLh+NqMmugxTiEdScolwgmzKwtmIkI5w=
+			FCK/GkEXXd4KeLFW4hueV15b2fO7FOhlJlixFQCqmjA=
 			</data>
 		</dict>
 		<key>Frameworks/AWSKMS.framework/Info.plist</key>
@@ -179,6 +194,13 @@
 			<key>hash2</key>
 			<data>
 			5je3v4IFUUNu8Emec/91g4ibohsKxE9ljUMmaafCTBc=
+			</data>
+		</dict>
+		<key>Frameworks/AWSKMS.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ld5DYZyxJ1Ux/KpdG2bZ7dZ5FMoctDgI2MgOln8QsDc=
 			</data>
 		</dict>
 		<key>Headers/begini_ios_sdk-Swift.h</key>
