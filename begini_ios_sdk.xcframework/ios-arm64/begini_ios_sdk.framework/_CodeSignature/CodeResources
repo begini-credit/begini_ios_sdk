@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/AWSCore.framework/AWSCore</key>
 		<data>
-		pJwigK5eSSW/u2FWAFqCcxfy8u4=
+		8CNkH7xa6nWhW4o+d9T5MG4cCb4=
 		</data>
 		<key>Frameworks/AWSCore.framework/Info.plist</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/AWSKMS.framework/AWSKMS</key>
 		<data>
-		3pD5DIPZ486sSPVoPX4ASNbV8dI=
+		+e9Zl0ZLRajVN0aJ/ELcAMvfFks=
 		</data>
 		<key>Frameworks/AWSKMS.framework/Info.plist</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		p4eaJVqraOuxoy6zDmvfOgwxwfU=
+		mdI5f65dXJP300mbudqtPS0SvZI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YfgcKatzEFBk4v3CjaQLCWkeyIEP3Yl3mYAt9ObWhm8=
+			JMIehDwifWOnuBFiJv8B7jREJtynO7rSNdd9II327rA=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCore.framework/Info.plist</key>
@@ -179,7 +179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FCK/GkEXXd4KeLFW4hueV15b2fO7FOhlJlixFQCqmjA=
+			UyZNCEQYE3Pe3tlduafJD+iIIhcNhnGNFAja/XHhGj4=
 			</data>
 		</dict>
 		<key>Frameworks/AWSKMS.framework/Info.plist</key>
@@ -249,7 +249,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JNW7dMoZwDJzkinQhwXl9b6TtPGaC7kzIRT3Zd2Fuus=
+			/cn/ypMao9f+QWwiWTIAuAS8TvX2SNQVZ2eVhTunReY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
