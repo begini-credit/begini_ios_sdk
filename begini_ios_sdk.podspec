@@ -15,7 +15,11 @@ Pod::Spec.new do |spec|
   spec.source = { :git => "https://github.com/begini-credit/begini_ios_sdk.git", :tag => spec.version.to_s }
 
   spec.swift_versions = "5.1"
-  spec.ios.deployment_target  = "12.1"
+  spec.ios.deployment_target  = "13"
   spec.vendored_frameworks = 'begini_ios_sdk.xcframework'
+
+  # Third-party dependencies
+  spec.dependency 'AWSCore'
+  spec.dependency 'AWSKMS'
 
 end
