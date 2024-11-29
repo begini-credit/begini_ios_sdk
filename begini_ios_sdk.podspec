@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'begini_ios_sdk.xcframework'
 
   # Third-party dependencies
-  spec.dependency 'AWSCore'
-  spec.dependency 'AWSKMS'
+  spec.dependency 'AWSCore', '~> 2.37.2'
+  spec.dependency 'AWSKMS', '~> 2.37.2'
 
 end
