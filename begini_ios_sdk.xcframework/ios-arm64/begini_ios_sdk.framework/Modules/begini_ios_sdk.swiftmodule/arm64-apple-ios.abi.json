@@ -1251,6 +1251,152 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "customUIViewControllerProvider",
+            "printedName": "customUIViewControllerProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> UIKit.UIViewController)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> UIKit.UIViewController",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvp",
+            "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvp",
+            "moduleName": "begini_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> UIKit.UIViewController)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> UIKit.UIViewController",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIViewController",
+                            "printedName": "UIKit.UIViewController",
+                            "usr": "c:objc(cs)UIViewController"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvg",
+                "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvg",
+                "moduleName": "begini_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> UIKit.UIViewController)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> UIKit.UIViewController",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIViewController",
+                            "printedName": "UIKit.UIViewController",
+                            "usr": "c:objc(cs)UIViewController"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvs",
+                "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvs",
+                "moduleName": "begini_ios_sdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvM",
+                "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvM",
+                "moduleName": "begini_ios_sdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "BeginiDataSdkOptions",
             "printedName": "BeginiDataSdkOptions(integration_id:api_key:isContactsEnabled:isProfileEnabled:u_id:isBatteryEnabled:isWifiEnabled:isGalleryExifDataEnabled:isCalendarEnabled:isLocationEnabled:isPiiHashingEnabled:primaryColor:language:isEncryptionEnabled:delegate:presentingVC:)",
@@ -1367,6 +1513,123 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "BeginiDataSdkCore",
+            "printedName": "BeginiDataSdkCore(integration_id:api_key:isContactsEnabled:isProfileEnabled:u_id:isBatteryEnabled:isWifiEnabled:isGalleryExifDataEnabled:isCalendarEnabled:isLocationEnabled:isPiiHashingEnabled:language:isEncryptionEnabled:delegate:presentingVC:useCustomUI:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BeginiAuthorizeDelegate",
+                "printedName": "any begini_ios_sdk.BeginiAuthorizeDelegate",
+                "usr": "s:14begini_ios_sdk23BeginiAuthorizeDelegateP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14begini_ios_sdk15BeginiAuthorizeC0D11DataSdkCore14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO00m10PiiHashingO08language0m10EncryptionO08delegate12presentingVC11useCustomUIySS_SSS2bSSS6bSSSbAA0dE8Delegate_pSo16UIViewControllerCSbtF",
+            "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC0D11DataSdkCore14integration_id7api_key17isContactsEnabled0m7ProfileO002u_J00m7BatteryO00m4WifiO00m11GalleryExiffO00m8CalendarO00m8LocationO00m10PiiHashingO08language0m10EncryptionO08delegate12presentingVC11useCustomUIySS_SSS2bSSS6bSSSbAA0dE8Delegate_pSo16UIViewControllerCSbtF",
+            "moduleName": "begini_ios_sdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -1391,6 +1654,54 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "progressUpdated",
+            "printedName": "progressUpdated(status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProgressStatus",
+                "printedName": "begini_ios_sdk.ProgressStatus",
+                "usr": "s:14begini_ios_sdk14ProgressStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14begini_ios_sdk15BeginiAuthorizeC15progressUpdated6statusyAA14ProgressStatusO_tF",
+            "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC15progressUpdated6statusyAA14ProgressStatusO_tF",
+            "moduleName": "begini_ios_sdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dataFetchCompleted",
+            "printedName": "dataFetchCompleted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14begini_ios_sdk15BeginiAuthorizeC18dataFetchCompletedyyF",
+            "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC18dataFetchCompletedyyF",
+            "moduleName": "begini_ios_sdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1407,6 +1718,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ProgressUpdateDelegate",
+            "printedName": "ProgressUpdateDelegate",
+            "usr": "s:14begini_ios_sdk22ProgressUpdateDelegateP",
+            "mangledName": "$s14begini_ios_sdk22ProgressUpdateDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataFetchCompletedDelegate",
+            "printedName": "DataFetchCompletedDelegate",
+            "usr": "s:14begini_ios_sdk26DataFetchCompletedDelegateP",
+            "mangledName": "$s14begini_ios_sdk26DataFetchCompletedDelegateP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4012,6 +4337,13 @@
         "kind": "Import",
         "name": "AWSKMS",
         "printedName": "AWSKMS",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
         "declKind": "Import",
         "moduleName": "begini_ios_sdk"
       },
@@ -7977,6 +8309,172 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ProgressUpdateDelegate",
+        "printedName": "ProgressUpdateDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "progressUpdated",
+            "printedName": "progressUpdated(status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProgressStatus",
+                "printedName": "begini_ios_sdk.ProgressStatus",
+                "usr": "s:14begini_ios_sdk14ProgressStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14begini_ios_sdk22ProgressUpdateDelegateP15progressUpdated6statusyAA0D6StatusO_tF",
+            "mangledName": "$s14begini_ios_sdk22ProgressUpdateDelegateP15progressUpdated6statusyAA0D6StatusO_tF",
+            "moduleName": "begini_ios_sdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : begini_ios_sdk.ProgressUpdateDelegate>",
+            "sugared_genericSig": "<Self where Self : begini_ios_sdk.ProgressUpdateDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14begini_ios_sdk22ProgressUpdateDelegateP",
+        "mangledName": "$s14begini_ios_sdk22ProgressUpdateDelegateP",
+        "moduleName": "begini_ios_sdk",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataSubmissionDelegate",
+        "printedName": "DataSubmissionDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "dataSubmissionStatusUpdated",
+            "printedName": "dataSubmissionStatusUpdated(message:code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14begini_ios_sdk22DataSubmissionDelegateP04dataE13StatusUpdated7message4codeySSSg_AGtF",
+            "mangledName": "$s14begini_ios_sdk22DataSubmissionDelegateP04dataE13StatusUpdated7message4codeySSSg_AGtF",
+            "moduleName": "begini_ios_sdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : begini_ios_sdk.DataSubmissionDelegate>",
+            "sugared_genericSig": "<Self where Self : begini_ios_sdk.DataSubmissionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dataSendingTimerCompleted",
+            "printedName": "dataSendingTimerCompleted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14begini_ios_sdk22DataSubmissionDelegateP25dataSendingTimerCompletedyyF",
+            "mangledName": "$s14begini_ios_sdk22DataSubmissionDelegateP25dataSendingTimerCompletedyyF",
+            "moduleName": "begini_ios_sdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : begini_ios_sdk.DataSubmissionDelegate>",
+            "sugared_genericSig": "<Self where Self : begini_ios_sdk.DataSubmissionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14begini_ios_sdk22DataSubmissionDelegateP",
+        "mangledName": "$s14begini_ios_sdk22DataSubmissionDelegateP",
+        "moduleName": "begini_ios_sdk",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataFetchCompletedDelegate",
+        "printedName": "DataFetchCompletedDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "dataFetchCompleted",
+            "printedName": "dataFetchCompleted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14begini_ios_sdk26DataFetchCompletedDelegateP04dataeF0yyF",
+            "mangledName": "$s14begini_ios_sdk26DataFetchCompletedDelegateP04dataeF0yyF",
+            "moduleName": "begini_ios_sdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : begini_ios_sdk.DataFetchCompletedDelegate>",
+            "sugared_genericSig": "<Self where Self : begini_ios_sdk.DataFetchCompletedDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14begini_ios_sdk26DataFetchCompletedDelegateP",
+        "mangledName": "$s14begini_ios_sdk26DataFetchCompletedDelegateP",
+        "moduleName": "begini_ios_sdk",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "BeginiAuthorizeDelegate",
         "printedName": "BeginiAuthorizeDelegate",
         "children": [
@@ -8145,6 +8643,164 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataCollectionFacade",
+        "printedName": "DataCollectionFacade",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DataCollectionFacade",
+                "printedName": "begini_ios_sdk.DataCollectionFacade",
+                "usr": "s:14begini_ios_sdk20DataCollectionFacadeC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14begini_ios_sdk20DataCollectionFacadeC6sharedACvpZ",
+            "mangledName": "$s14begini_ios_sdk20DataCollectionFacadeC6sharedACvpZ",
+            "moduleName": "begini_ios_sdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataCollectionFacade",
+                    "printedName": "begini_ios_sdk.DataCollectionFacade",
+                    "usr": "s:14begini_ios_sdk20DataCollectionFacadeC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14begini_ios_sdk20DataCollectionFacadeC6sharedACvgZ",
+                "mangledName": "$s14begini_ios_sdk20DataCollectionFacadeC6sharedACvgZ",
+                "moduleName": "begini_ios_sdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initializeDelegates",
+            "printedName": "initializeDelegates(progressUpdateDelegate:dataSubmissionDelegate:dataFetchCompletedDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProgressUpdateDelegate",
+                "printedName": "any begini_ios_sdk.ProgressUpdateDelegate",
+                "usr": "s:14begini_ios_sdk22ProgressUpdateDelegateP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DataSubmissionDelegate",
+                "printedName": "any begini_ios_sdk.DataSubmissionDelegate",
+                "usr": "s:14begini_ios_sdk22DataSubmissionDelegateP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DataFetchCompletedDelegate",
+                "printedName": "any begini_ios_sdk.DataFetchCompletedDelegate",
+                "usr": "s:14begini_ios_sdk26DataFetchCompletedDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14begini_ios_sdk20DataCollectionFacadeC19initializeDelegates22progressUpdateDelegate014dataSubmissionK00l14FetchCompletedK0yAA08ProgressjK0_p_AA0dmK0_pAA0dnoK0_ptF",
+            "mangledName": "$s14begini_ios_sdk20DataCollectionFacadeC19initializeDelegates22progressUpdateDelegate014dataSubmissionK00l14FetchCompletedK0yAA08ProgressjK0_p_AA0dmK0_pAA0dnoK0_ptF",
+            "moduleName": "begini_ios_sdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startDataCollection",
+            "printedName": "startDataCollection()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14begini_ios_sdk20DataCollectionFacadeC05startdE0yyF",
+            "mangledName": "$s14begini_ios_sdk20DataCollectionFacadeC05startdE0yyF",
+            "moduleName": "begini_ios_sdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "submitData",
+            "printedName": "submitData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14begini_ios_sdk20DataCollectionFacadeC06submitD0yyF",
+            "mangledName": "$s14begini_ios_sdk20DataCollectionFacadeC06submitD0yyF",
+            "moduleName": "begini_ios_sdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14begini_ios_sdk20DataCollectionFacadeC",
+        "mangledName": "$s14begini_ios_sdk20DataCollectionFacadeC",
+        "moduleName": "begini_ios_sdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -10382,6 +11038,13 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/BeginiAuthorize.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3065,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "BooleanLiteral",
       "offset": 621,
@@ -10481,50 +11144,57 @@
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1554,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1568,
+      "offset": 1604,
       "length": 5,
       "value": "187.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1574,
+      "offset": 1610,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1588,
+      "offset": 1624,
       "length": 4,
       "value": "28.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1593,
+      "offset": 1629,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1606,
+      "offset": 1642,
       "length": 5,
       "value": "109.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1612,
+      "offset": 1648,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 1626,
+      "offset": 1662,
       "length": 1,
       "value": "1"
     },
