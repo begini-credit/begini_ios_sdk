@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		xsB/6zq6JDj6VPTnvYUrBDN7EyQ=
+		Gtsap1sBwfiDDQsHny18MY9UkUI=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		mF8f8FrziTsSr0PEzV1YdULorpE=
+		7sbMmrG6AYNelt1ll7rR4ha5XA4=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		mF8f8FrziTsSr0PEzV1YdULorpE=
+		7sbMmrG6AYNelt1ll7rR4ha5XA4=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		VKYfok2YygfUsmUx4ERdw3FkqmA=
+		KYW1VTj6i4aZFZxv5kqt/09rWq4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Permissions.storyboardc/UINavigationController-Nir-re-mvy.nib</key>
 		<data>
-		EyFc3FSEJOwb2ddwyPwffLdatUE=
+		ZH+nmEtDa1Cd2jZfeNeqen+htvo=
 		</data>
 		<key>Roboto-Bold.ttf</key>
 		<data>
@@ -122,14 +122,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SJG7/vsYtuktbLLiiy6toJkeLh01BnHGwjpmSKnp0pE=
+			s6HRswbJK1WX98ltMwy3b64K/wSmDnakwBYpGsPC5as=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cOiLseD33PNsU0Psk30FQSVvehbP0pE65EAVnOR4ipE=
+			sbJx8Jmj3IM/MM4M0SLC9878bz6uuwspRtw000CU3zU=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -143,14 +143,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cOiLseD33PNsU0Psk30FQSVvehbP0pE65EAVnOR4ipE=
+			sbJx8Jmj3IM/MM4M0SLC9878bz6uuwspRtw000CU3zU=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v+clwgYAvdWmIlZC09iPRt0vYfpDvn6NdzJXtPh7CAg=
+			VES/K/oNCvCNx6djexqAb9BcwTr4e96C/zkLN9CZp2U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -199,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bftexj5RLMohyugi6pyyDDb5NkDKGiduYRS9XWFs5os=
+			nLj2ZPIY7k9WYuJJXCFzraIC4Xu7gARZVG472gnqnYY=
 			</data>
 		</dict>
 		<key>Roboto-Bold.ttf</key>
