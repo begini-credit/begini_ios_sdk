@@ -310,6 +310,7 @@ SWIFT_CLASS("_TtC14begini_ios_sdk15BeginiAuthorize")
 
 
 
+
 enum KDCircularProgressGlowMode : NSInteger;
 @class UIColor;
 @class NSCoder;
@@ -678,6 +679,7 @@ SWIFT_CLASS("_TtC14begini_ios_sdk15BeginiAuthorize")
 @interface BeginiAuthorize : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

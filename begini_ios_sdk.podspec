@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "begini_ios_sdk"
-  spec.version      = "1.2.1"
+  spec.version      = "1.2.2"
   spec.summary      = "Begini iOS SDK"
   spec.description  = "Begini SDK allows you to collect device data in your iPhone app."
 
@@ -15,7 +15,11 @@ Pod::Spec.new do |spec|
   spec.source = { :git => "https://github.com/begini-credit/begini_ios_sdk.git", :tag => spec.version.to_s }
 
   spec.swift_versions = "5.1"
-  spec.ios.deployment_target  = "12.1"
+  spec.ios.deployment_target  = "13"
   spec.vendored_frameworks = 'begini_ios_sdk.xcframework'
+
+  # Third-party dependencies
+  spec.dependency 'AWSCore', '~> 2.37.2'
+  spec.dependency 'AWSKMS', '~> 2.37.2'
 
 end
