@@ -2,12 +2,15 @@
 Begini iOS SDK V1.2.2
 
 Pre-requisites
-Download and install xcode from https://developer.apple.com/xcode/.  Latest supporting iOS SDK version is  Xcode 13.3. 
+
+Download and install xcode from https://developer.apple.com/xcode/.  
+Latest supporting iOS SDK version is  Xcode 13.3. 
 Before starting integration you must have a valid Integration ID and API Key from the Begini dashboard, while using the SDK these data must be passed to SDK.
 To get a Git project into your build 
 CocoaPods is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. Then in the terminal, cd to your Xcode project root directory (where your .xcodeproj file resides) and type:
-                                                        
+  ```                                                      
   pod init
+  ```
                      
 Your Podfile will get open in text mode. Initially there will be some default commands in there. To integrate begini_ios_sdk into your Xcode project using CocoaPods, specify it in your podfile:
  
@@ -21,32 +24,36 @@ Or you can choose the version based on your requirements
 Mandatory permissions
 Internet access
 
-
+```
 <key>NSAppTransportSecurity</key>
     <dict>
         <key>NSAllowsArbitraryLoads</key>
         <true/>
     </dict>
 </key>
-
+```
 
 
 
 Non mandatory permissions
 
-
+```
 <key>NSCalendarsUsageDescription</key>
-    <string>Having access to calendar events helps us determine how busy you are. We use this as a signal for building your credit score.</string>
-    <key>NSContactsUsageDescription</key>
-    <string>We access your contact details to determine a list of people you socialize with. This data helps us to then build a social graph to assist with your credit score. We will only use this data for your personal score and we will not contact any of these people in your contact list.</string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>We study locational activity. This helps us estimate with a fair level of accuracy your most visited locations. We use this as a signal for building your credit score.</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>We use read access to Photos to extract geo-location information from image files. This helps us estimate with a fair level of accuracy your most visited locations. We use this as a signal for building your credit score</string>
+<string>Having access to calendar events helps us determine how busy you are. We use this as a signal for building your credit score.</string>
 
+<key>NSContactsUsageDescription</key>
+<string>We access your contact details to determine a list of people you socialize with. This data helps us to then build a social graph to assist with your credit score. We will only use this data for your personal score and we will not contact any of these people in your contact list.</string>
+
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>We study locational activity. This helps us estimate with a fair level of accuracy your most visited locations. We use this as a signal for building your credit score.</string>
+
+<key>NSPhotoLibraryUsageDescription</key>
+<string>We use read access to Photos to extract geo-location information from image files. This helps us estimate with a fair level of accuracy your most visited locations. We use this as a signal for building your credit score</string>
+```
 
 
 Non mandatory permissions can be used according to your requirements. We will explain that later.
+
 Starting Begini SDK integration.
 Begini SDK works in a BeginiAuthorize class. 
 Setup SDK Request
@@ -56,31 +63,33 @@ Begini SDK  reads device data in order to create the most accurate credit score.
 Contacts, Calendar, Battery information, Bluetooth Information, Wifi information, Gallery, Location and Profile (includes Screen,volume,hardware and phone settings Information, ). BeginiDataSdkOptions lets you decide which of those device data can be accessed for your App.
 Also the integration id,api key and uid must be passed to Begini SDK via BeginiDataSdkOptions request.
  u_id= is the id of the user which can be decided by the client app, but for each user the u_id should be different.
-
+ 
+```swift
 func BeginiDataSdkOptions(
-integration_id : String, 
-api_key : String, 
-isContactsEnabled : Bool, 
- isProfileEnabled : Bool, 
-u_id : String, 
-isBatteryEnabled : Bool, 
- isWifiEnabled : Bool, 
- isGalleryExifDataEnabled : Bool,  
-isCalendarEnabled : Bool,  
-isLocationEnabled : Bool, 
-isPiiHashingEnabled : Bool, 
-primaryColor : UIColor, 
-language: String, 
-delegate : BeginiAuthorizeDelegate, 
-presentingVC: UIViewController
+  integration_id : String, 
+  api_key : String, 
+  isContactsEnabled : Bool,
+  isProfileEnabled : Bool, 
+  u_id : String, 
+  isBatteryEnabled : Bool, 
+  isWifiEnabled : Bool, 
+  isGalleryExifDataEnabled : Bool,  
+  isCalendarEnabled : Bool,  
+  isLocationEnabled : Bool, 
+  isPiiHashingEnabled : Bool, 
+  primaryColor : UIColor, 
+  language: String, 
+  delegate : BeginiAuthorizeDelegate, 
+  presentingVC: UIViewController
 )
+```
 
 
 
  
 Example initialization of BeginiDataSdkOptions
                 
-          
+```swift          
 BeginiAuthorize.shared.BeginiDataSdkOptions(
     integration_id: "621751ae4b75ebb46baa61e8",
     api_key: "1b43fbc0-8ec8-419e-a7ec-9e31d2d05345",
@@ -98,48 +107,53 @@ BeginiAuthorize.shared.BeginiDataSdkOptions(
     delegate: self,
     presentingVC: self
 )
-
+```
 
 
 
 
 The non-mandatory permissions can be added according to the request that passing through the BeginiDataSdkOptions
 That is,
+
+
 If isContactsEnabled= true
 
-
+```
 <key>NSContactsUsageDescription</key>
-    <string>We access your contacts details to determine a list of people you socialise with. This data helps us to then build a social graph to assist with your credit score. We will only use this data for your personal score and we will not contact any of these people in your contact list.</string>
-
+<string>We access your contacts details to determine a list of people you socialise with. This data helps us to then build a social graph to assist with your credit score. We will only use this data for your personal score and we will not contact any of these people in your contact list.</string>
+```
 
 
 Needed to be added to your info.
+
 Likewise
 for isCalendarEnabled=true
 
-
+```
 <key>NSCalendarsUsageDescription</key>
-    <string>Having access to calendar events helps us determine how busy you are. We use this as a signal for building your credit score.</string>
-
+<string>Having access to calendar events helps us determine how busy you are. We use this as a signal for building your credit score.</string>
+```
 
 
 for isWifiEnabled=true
+
 Enable access wifi information capability in xcode
 
  For  isLocationEnabled :=true
 
-
+```
 <key>NSLocationWhenInUseUsageDescription</key>
-    <string>We study locational activity. This helps us estimate with a fair level of accuracy your most visited locations. We use this as a signal for building your credit score.</string>
- 
+<string>We study locational activity. This helps us estimate with a fair level of accuracy your most visited locations. We use this as a signal for building your credit score.</string>
+``` 
 
 
 Using Custom UI with BeginiDataSdkCore
+
 To enable custom UI, use BeginiDataSdkCore. This provides flexibility to design custom UI components while integrating with the SDK.
 Function Definition:
 
 
-
+```
 public func BeginiDataSdkCore(
     integration_id: String,
     api_key: String,
@@ -158,10 +172,11 @@ public func BeginiDataSdkCore(
     presentingVC: UIViewController,
     useCustomUI: Bool = false
 )
-
+```
 
 
 Sample Usage:
+```
 BeginiAuthorize.shared.customUIViewControllerProvider = {
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
     return storyboard.instantiateViewController(withIdentifier: "ClientCustomUI")
@@ -196,10 +211,11 @@ BeginiAuthorize.shared.BeginiDataSdkCore(
     presentingVC: self,
     useCustomUI: true
 )
-
+```
 
 Sample code for CustomUI
 
+```
 import UIKit
 import begini_ios_sdk
 class CustomUIViewController: UIViewController {
@@ -231,8 +247,8 @@ class CustomUIViewController: UIViewController {
         navigationController?.setNavigationBarHidden(false, animated: animated)
     }
 }
-
-
+```
+```
 extension CustomUIViewController : ProgressUpdateDelegate{
     func progressUpdated(status: ProgressStatus) {
         let progress: Float
@@ -263,8 +279,10 @@ extension CustomUIViewController : ProgressUpdateDelegate{
         }
     }
 }
+```
+```
 extension CustomUIViewController: DataCollectionDelegate {
-    func dataSubmissionCompleted() {
+    func ubmissionCompleted() {
         DispatchQueue.main.async {
             self.progressView1.setProgress(1.0, animated: true)
             self.lblStatus.text = "Data Fetch Completed"
@@ -300,7 +318,9 @@ extension CustomUIViewController: DataCollectionDelegate {
     func dataSubmissionCancelled(message: String) {
         print("Submission Cancelled: \(message)")
     }
-}
+  }
+```
+```
 extension CustomUIViewController : DataFetchCompletedDelegate{
     // MARK: - DataFetchCompletedDelegate
     func dataFetchCompleted() {
@@ -309,7 +329,11 @@ extension CustomUIViewController : DataFetchCompletedDelegate{
         }
     }
 }
+```
+```
 extension CustomUIViewController: ProgressUpdatable {}
+```
+```
 extension CustomUIViewController : BeginiAuthorizeDelegate{
     
     func onAuthorizeStarted() {
@@ -375,26 +399,36 @@ extension CustomUIViewController : BeginiAuthorizeDelegate{
         }
     }
 }
-
-
-
-
-
-
+```
 
 Applying Theme
 primaryColor is the theme color of the SDK. All the button colors and progress loaders will show in primaryColor. 
 
 For example :
 
-
-BeginiAuthorize.shared.BeginiDataSdkOptions(integration_id : "621751ae4b75ebb46baa61e8", api_key : "1b43fbc0-8ec8-419e-a7ec-9e31d2d05345"
-, isContactsEnabled : true,  isProfileEnabled : true, u_id: email,  isBatteryEnabled : true,  isWifiEnabled : true,  isGalleryExifDataEnabled : true,  isCalendarEnabled : true,  isLocationEnabled : true,primaryColor : .red,  delegate : self, presentingVC: self)
-
+```
+BeginiAuthorize.shared.BeginiDataSdkOptions(
+  integration_id : "621751ae4b75ebb46baa61e8",
+  api_key : "1b43fbc0-8ec8-419e-a7ec-9e31d2d05345",
+  isContactsEnabled : true,
+  isProfileEnabled : true,
+  u_id: email,
+  isBatteryEnabled : true,
+  isWifiEnabled : true,
+  isGalleryExifDataEnabled : true,
+  isCalendarEnabled : true,
+  isLocationEnabled : true,
+  primaryColor : .red,
+  delegate : self,
+  presentingVC: self
+)
+```
 
 
 PII Hashing in Begini iOS SDK
+
 What is PII Hashing?
+
 Personally Identifiable Information (PII) includes any data that could potentially identify a specific individual. In the Begini SDK, sensitive data such as contact details and calendar event information can be hashed before being sent to our servers. This ensures that any identifiable information is obfuscated, providing an additional layer of privacy and security for your users.
 Hashing converts PII into a fixed-length string, which is irreversible. This means even if the data is intercepted, it cannot be converted back into its original form.
 When isPiiHashingEnabled is true, the SDK will automatically hash sensitive PII data before it is processed.
@@ -405,12 +439,14 @@ Similarly, the organizer's name in calendar events can also be hashed if isPiiHa
 
 
 Language Translation Support
+
 Overview
 The Begini SDK can adapt its language to match the device’s preferred language setting, ensuring a seamless user experience for international audiences. The SDK currently supports English and Thai, switching between these based on the device's locale.
 Implementing Language Translation
 The SDK language is set using the language parameter in BeginiDataSdkOptions. By default, it uses the device's primary language. If the device’s language setting starts with "th" (for Thai), the SDK language will be set to Thai. Otherwise, it defaults to English.
 Example Implementation
 To integrate this feature, you can use the following code:
+```
 let deviceLanguage = Locale.preferredLanguages.first ?? "en"
 let preferredLanguage = deviceLanguage.hasPrefix("th") ? "th" : "en"
 
@@ -431,7 +467,7 @@ BeginiAuthorize.shared.BeginiDataSdkOptions(
     delegate: self,
     presentingVC: self
 )
-
+```
 How it Works
 Device Language Detection: The device’s preferred language is fetched using Locale.preferredLanguages.
 Conditional Language Selection: The app checks if the language code starts with "th" for Thai; if so, the preferredLanguage is set to "th", otherwise to "en".
@@ -439,7 +475,7 @@ Passing Language to SDK: The preferredLanguage variable is then passed to the SD
 Handling SDK Result
 Once you start the BeginiAuthorize you can receive the result of the SDK from BeginiAuthorizeDelegate.
 
-
+```
 public protocol BeginiAuthorizeDelegate : AnyObject{
     func onAuthorizeStarted()
     func onAuthorizeComplete(status: AuthorizationStatus)
@@ -459,7 +495,7 @@ public enum ProgressStatus {
     case scroe_generating
     case completed
 }
-
+```
 Results can be identified from BeginiAuthorizeDelegate.
 When the authorization starts we will get the callback in func onAuthorizeStarted(). When the status changes we will get the callback on func onStatusUpdate(status: ProgressStatus) with progress status.
 If the user canceled the user by pressing the back button, we will get the callback on  func onAuthorizeCancelled(status: AuthorizationStatus, message: String).
@@ -468,12 +504,12 @@ That is if the result is success , by BeginiAuthorizeDelegate will be func onAut
 If the result is failed, we will get the callback on func onAuthorizeFailure(status: AuthorizationStatus, message : String, code: String) with failed message and error code.
 Error codes:
 
-
+```
 IOS0001 - Unexpected error
 IOS0002 - Session canceled
 IOS0003 - Session expired
 IOS0004 - Session incomplete
 IOS0005 - Session already submitted
-
+```
 
 
