@@ -1,12 +1,3 @@
-iOS External Documentation
-Begini.co
-
-
-Document Control
-Document Title: iOS External Documentation
-Document Description:  This document offers clear and accessible explanations of the app's features, functionalities, and user interface, ensuring that external users can make the most of the Begini iOS app to meet their specific needs.
-Release Date: 16 Jan 2025
-
 
 Begini iOS SDK V1.2.2
 
