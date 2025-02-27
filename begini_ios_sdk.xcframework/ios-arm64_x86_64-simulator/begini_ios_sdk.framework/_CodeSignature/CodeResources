@@ -8,6 +8,42 @@
 		<data>
 		rOYnC/ZfRLrtuyscsJUFVBJOyQ8=
 		</data>
+		<key>Frameworks/AWSCore.framework/AWSCore</key>
+		<data>
+		WIXU4W9mrO8dtBGQTNFVcuALxjE=
+		</data>
+		<key>Frameworks/AWSCore.framework/Info.plist</key>
+		<data>
+		qtwpGkuH1xMgFFM9GBnnVKeLsHw=
+		</data>
+		<key>Frameworks/AWSCore.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		pMYPSf5htlszXpXkljmBArmltPQ=
+		</data>
+		<key>Frameworks/AWSCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		3W2p2UxPbpUQY4plsFNT8uQ770k=
+		</data>
+		<key>Frameworks/AWSCore.framework/strip-frameworks.sh</key>
+		<data>
+		bENFeKfMHTdHyWS5AygjhdAo44Q=
+		</data>
+		<key>Frameworks/AWSKMS.framework/AWSKMS</key>
+		<data>
+		O7hIrCZLETWeTTx8Ac6hlRZa/MQ=
+		</data>
+		<key>Frameworks/AWSKMS.framework/Info.plist</key>
+		<data>
+		nJVLxTFjqITN2bMPwDf/VC1K9oo=
+		</data>
+		<key>Frameworks/AWSKMS.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		WWhlLRp5k2wsGI+PkPXOPw3FJzs=
+		</data>
+		<key>Frameworks/AWSKMS.framework/_CodeSignature/CodeResources</key>
+		<data>
+		AogcpKz6A4QnOqQ+qYPaMM6B6sY=
+		</data>
 		<key>Headers/begini_ios_sdk-Swift.h</key>
 		<data>
 		E6w4dAFqDAJoxKyPhdGFILt+VA8=
@@ -38,7 +74,7 @@
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		afNTeKJ8G/giGvoCliWs2liSTM8=
+		+A8lYStt0Rv3l8Y/vN3onrMYqJI=
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +94,7 @@
 		</data>
 		<key>Modules/begini_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/oDZdxOO4/Hst5ELyQym3Iq2Ry8=
+		jGVbTgza/xFd2aD+PwgWa+t1Apg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -124,6 +160,69 @@
 			Wvqkox2Hh5/EfjgL2bP3nwqYuRuD+oBDq83H5tdNxl8=
 			</data>
 		</dict>
+		<key>Frameworks/AWSCore.framework/AWSCore</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AEnHJ0rGetSAEbtQ46DeUnlcGTKFdcbQwubAdeatBB8=
+			</data>
+		</dict>
+		<key>Frameworks/AWSCore.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zlq/agxcmbBAkqA7ILwFoFAbbah+Bigg39PbMZDWSkM=
+			</data>
+		</dict>
+		<key>Frameworks/AWSCore.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/xtdxoyDxQSImZ02Cewe2Sfbutih0+5AqRf6TXwyctE=
+			</data>
+		</dict>
+		<key>Frameworks/AWSCore.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qE7KRUnQfsfz5uxgN2lzDryXesWTW/GLtHCuQ8qcHq8=
+			</data>
+		</dict>
+		<key>Frameworks/AWSCore.framework/strip-frameworks.sh</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TdoX67LzludHG3MJM/ykgPmTswRtyXdokveq/f6XloI=
+			</data>
+		</dict>
+		<key>Frameworks/AWSKMS.framework/AWSKMS</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RV3LQOOm9cRIypp/+ilkrfgUliZ63BeRavrR/twOlvE=
+			</data>
+		</dict>
+		<key>Frameworks/AWSKMS.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3+4InEm8ukyF16DHql2VidZXAl4Ur6mI82RUz5psVBA=
+			</data>
+		</dict>
+		<key>Frameworks/AWSKMS.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5je3v4IFUUNu8Emec/91g4ibohsKxE9ljUMmaafCTBc=
+			</data>
+		</dict>
+		<key>Frameworks/AWSKMS.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cDnRcF0yZG9nmzXH7Lnei1S/rR3iLp4k+NL1evVisLc=
+			</data>
+		</dict>
 		<key>Headers/begini_ios_sdk-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -170,7 +269,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hbyXLQu3e/Fefr188Z/0tPIjqTdPxWD6Xdqf0+V5iKY=
+			ZFXMuu8k8qp20m6nR26c4J2dsvM1X4N9jo/qdmYf9Nc=
 			</data>
 		</dict>
 		<key>Modules/begini_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -205,7 +304,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6VD/PbxqTvdbzmN5nirSCJc1zbCKp43ffLTsOiTbmh0=
+			Y7fIAZyaKvAsD0TdXWq6JDb0W3P0K7v45T3/gU+F6B8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
