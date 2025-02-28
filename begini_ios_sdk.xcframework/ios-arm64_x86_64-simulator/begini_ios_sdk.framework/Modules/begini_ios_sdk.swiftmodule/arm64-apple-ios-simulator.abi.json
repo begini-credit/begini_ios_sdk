@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "begini_ios_sdk",
+    "printedName": "begini_ios_sdk",
     "children": [
       {
         "kind": "Import",
@@ -189,6 +189,20 @@
         ],
         "enumRawTypeName": "UInt16",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -644,6 +658,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "RawRepresentable",
             "printedName": "RawRepresentable",
             "children": [
@@ -980,6 +1008,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -1127,6 +1169,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -1803,24 +1859,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "DataCollectionDelegate",
-            "printedName": "DataCollectionDelegate",
-            "usr": "s:14begini_ios_sdk22DataCollectionDelegateP",
-            "mangledName": "$s14begini_ios_sdk22DataCollectionDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "ProgressUpdateDelegate",
-            "printedName": "ProgressUpdateDelegate",
-            "usr": "s:14begini_ios_sdk22ProgressUpdateDelegateP",
-            "mangledName": "$s14begini_ios_sdk22ProgressUpdateDelegateP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "DataFetchCompletedDelegate",
-            "printedName": "DataFetchCompletedDelegate",
-            "usr": "s:14begini_ios_sdk26DataFetchCompletedDelegateP",
-            "mangledName": "$s14begini_ios_sdk26DataFetchCompletedDelegateP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1870,6 +1919,27 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataCollectionDelegate",
+            "printedName": "DataCollectionDelegate",
+            "usr": "s:14begini_ios_sdk22DataCollectionDelegateP",
+            "mangledName": "$s14begini_ios_sdk22DataCollectionDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ProgressUpdateDelegate",
+            "printedName": "ProgressUpdateDelegate",
+            "usr": "s:14begini_ios_sdk22ProgressUpdateDelegateP",
+            "mangledName": "$s14begini_ios_sdk22ProgressUpdateDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataFetchCompletedDelegate",
+            "printedName": "DataFetchCompletedDelegate",
+            "usr": "s:14begini_ios_sdk26DataFetchCompletedDelegateP",
+            "mangledName": "$s14begini_ios_sdk26DataFetchCompletedDelegateP"
           }
         ]
       },
@@ -2222,6 +2292,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2280,6 +2364,7 @@
             "mangledName": "$s14begini_ios_sdk18KDCircularProgressC8progressSdvp",
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2370,8 +2455,9 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2465,8 +2551,9 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2560,8 +2647,9 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2655,8 +2743,9 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2750,8 +2839,9 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2845,8 +2935,9 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -2940,8 +3031,9 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -3035,8 +3127,9 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -3129,8 +3222,9 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -3224,8 +3318,9 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -3319,8 +3414,9 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -3422,8 +3518,9 @@
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "IBInspectable",
               "ObjC"
@@ -3540,6 +3637,7 @@
             "mangledName": "$s14begini_ios_sdk18KDCircularProgressC14progressColorsSaySo7UIColorCGvp",
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3655,6 +3753,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -3698,6 +3797,7 @@
             "mangledName": "$s14begini_ios_sdk18KDCircularProgressC5frame6colorsACSo6CGRectV_So7UIColorCdtcfc",
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Convenience"
@@ -3739,6 +3839,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Required"
@@ -3765,6 +3866,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3799,6 +3901,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -3857,6 +3960,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3893,6 +3997,7 @@
             "mangledName": "$s14begini_ios_sdk18KDCircularProgressC3set6colorsySo7UIColorCd_tF",
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3965,6 +4070,7 @@
             "mangledName": "$s14begini_ios_sdk18KDCircularProgressC7animate9fromAngle02toH08duration16relativeDuration10completionySd_S2dSbySbcSgtF",
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -4032,6 +4138,7 @@
             "mangledName": "$s14begini_ios_sdk18KDCircularProgressC7animate7toAngle8duration16relativeDuration10completionySd_SdSbySbcSgtF",
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -4054,6 +4161,7 @@
             "mangledName": "$s14begini_ios_sdk18KDCircularProgressC14pauseAnimationyyF",
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -4076,6 +4184,7 @@
             "mangledName": "$s14begini_ios_sdk18KDCircularProgressC13stopAnimationyyF",
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -4099,6 +4208,7 @@
             "mangledName": "$s14begini_ios_sdk18KDCircularProgressC11isAnimatingSbyF",
             "moduleName": "begini_ios_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -4135,6 +4245,7 @@
             "objc_name": "animationDidStop:finished:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4160,6 +4271,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4200,6 +4312,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4226,6 +4339,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4238,6 +4352,7 @@
         "mangledName": "$s14begini_ios_sdk18KDCircularProgressC",
         "moduleName": "begini_ios_sdk",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjCMembers",
@@ -4252,6 +4367,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4677,6 +4806,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4986,6 +5129,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5868,6 +6025,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -6104,6 +6275,20 @@
             ],
             "enumRawTypeName": "UInt",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -7533,6 +7718,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sequence",
             "printedName": "Sequence",
             "children": [
@@ -7816,6 +8015,20 @@
             ],
             "enumRawTypeName": "Int",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -8200,6 +8413,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -8438,6 +8665,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8543,6 +8786,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8629,6 +8888,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8666,6 +8941,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8837,6 +9128,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8968,6 +9275,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -9367,6 +9690,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "DataSubmissionDelegate",
@@ -10389,6 +10726,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -10486,12 +10837,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -10538,6 +10883,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11077,12 +11436,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -11143,6 +11496,41 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -11162,27 +11550,6 @@
             ],
             "usr": "s:10Foundation20ReferenceConvertibleP",
             "mangledName": "$s10Foundation20ReferenceConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -11268,12 +11635,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -11446,6 +11807,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11515,34 +11890,6 @@
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 553,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 683,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 553,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 683,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Data+Compression.swift",
       "kind": "BooleanLiteral",
       "offset": 4520,
       "length": 5,
@@ -11591,37 +11938,9 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
-      "kind": "IntegerLiteral",
-      "offset": 391,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
-      "kind": "IntegerLiteral",
-      "offset": 413,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
-      "kind": "IntegerLiteral",
-      "offset": 391,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+Writing.swift",
-      "kind": "IntegerLiteral",
-      "offset": 413,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/BeginiAuthorize.swift",
       "kind": "BooleanLiteral",
-      "offset": 3064,
+      "offset": 3081,
       "length": 5,
       "value": "false"
     },
@@ -11809,31 +12128,38 @@
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
-      "kind": "IntegerLiteral",
-      "offset": 173,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
-      "kind": "IntegerLiteral",
-      "offset": 182,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
-      "kind": "IntegerLiteral",
-      "offset": 192,
-      "length": 6,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
       "kind": "FloatLiteral",
       "offset": 479,
       "length": 3,
       "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "kind": "FloatLiteral",
+      "offset": 639,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "kind": "FloatLiteral",
+      "offset": 649,
+      "length": 5,
+      "value": "360.0"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "kind": "FloatLiteral",
+      "offset": 672,
+      "length": 5,
+      "value": "360.0"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "kind": "FloatLiteral",
+      "offset": 681,
+      "length": 5,
+      "value": "360.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
@@ -12067,6 +12393,62 @@
       "value": "0.00015"
     },
     {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17219,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17238,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "kind": "Array",
+      "offset": 17254,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "kind": "FloatLiteral",
+      "offset": 17368,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "kind": "FloatLiteral",
+      "offset": 17404,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "kind": "FloatLiteral",
+      "offset": 17455,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17497,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/KDCircularProgress.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17547,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/DataCollectionViewController.swift",
       "kind": "FloatLiteral",
       "offset": 777,
@@ -12261,62 +12643,6 @@
       "offset": 4874,
       "length": 6,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4758,
-      "length": 4,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4874,
-      "length": 6,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4758,
-      "length": 4,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4874,
-      "length": 6,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5034,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5132,
-      "length": 2,
-      "value": "45"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5034,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5132,
-      "length": 2,
-      "value": "45"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive.swift",
@@ -12748,90 +13074,6 @@
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
-      "offset": 780,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 842,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 780,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 842,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1159,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1181,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1202,
-      "length": 2,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1227,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1159,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1181,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1202,
-      "length": 2,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1227,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Entry.swift",
-      "kind": "IntegerLiteral",
       "offset": 1159,
       "length": 1,
       "value": "0"
@@ -12923,20 +13165,6 @@
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
       "kind": "IntegerLiteral",
-      "offset": 483,
-      "length": 6,
-      "value": "0x0001"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
-      "kind": "IntegerLiteral",
-      "offset": 483,
-      "length": 6,
-      "value": "0x0001"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/ZIPFoundation\/Archive+ZIP64.swift",
-      "kind": "IntegerLiteral",
       "offset": 1288,
       "length": 2,
       "value": "56"
@@ -12984,7 +13212,7 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chandramohan\/Library\/Developer\/Xcode\/DerivedData\/begini_ios_sdk-ekmdmcdaymgaqnchjpojnqwddwll\/Build\/Intermediates.noindex\/ArchiveIntermediates\/begini_ios_sdk\/IntermediateBuildFilesPath\/begini_ios_sdk.build\/Release-iphonesimulator\/begini_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/chandramohan\/Library\/Developer\/Xcode\/DerivedData\/begini_ios_sdk-cxjfnuapumextgcvivjfcsjnrrby\/Build\/Intermediates.noindex\/ArchiveIntermediates\/begini_ios_sdk\/IntermediateBuildFilesPath\/begini_ios_sdk.build\/Release-iphonesimulator\/begini_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 732,
       "length": 12,
