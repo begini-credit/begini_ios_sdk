@@ -1,5 +1,5 @@
 
-Begini iOS SDK V1.2.2
+Begini iOS SDK V1.2.3
 
 Pre-requisites
 
@@ -19,7 +19,7 @@ Your Podfile will get open in text mode. Initially there will be some default co
 
 Or you can choose the version based on your requirements
  
- pod 'begini_ios_sdk', '1.2.2'
+ pod 'begini_ios_sdk', '1.2.3'
 
 Mandatory permissions
 Internet access
