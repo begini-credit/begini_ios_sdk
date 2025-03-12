@@ -1307,152 +1307,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "customUIViewControllerProvider",
-            "printedName": "customUIViewControllerProvider",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> UIKit.UIViewController)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> UIKit.UIViewController",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvp",
-            "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvp",
-            "moduleName": "begini_ios_sdk",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> UIKit.UIViewController)?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> UIKit.UIViewController",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UIViewController",
-                            "printedName": "UIKit.UIViewController",
-                            "usr": "c:objc(cs)UIViewController"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvg",
-                "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvg",
-                "moduleName": "begini_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> UIKit.UIViewController)?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> UIKit.UIViewController",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UIViewController",
-                            "printedName": "UIKit.UIViewController",
-                            "usr": "c:objc(cs)UIViewController"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvs",
-                "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvs",
-                "moduleName": "begini_ios_sdk",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvM",
-                "mangledName": "$s14begini_ios_sdk15BeginiAuthorizeC30customUIViewControllerProviderSo0gH0CycSgvM",
-                "moduleName": "begini_ios_sdk",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
             "kind": "Function",
             "name": "BeginiDataSdkOptions",
             "printedName": "BeginiDataSdkOptions(integration_id:api_key:isContactsEnabled:isProfileEnabled:u_id:isBatteryEnabled:isWifiEnabled:isGalleryExifDataEnabled:isCalendarEnabled:isLocationEnabled:isPiiHashingEnabled:primaryColor:language:delegate:presentingVC:)",
@@ -11940,7 +11794,7 @@
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Controllers\/BeginiAuthorize.swift",
       "kind": "BooleanLiteral",
-      "offset": 3081,
+      "offset": 2997,
       "length": 5,
       "value": "false"
     },
@@ -12052,49 +11906,49 @@
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1681,
+      "offset": 1608,
       "length": 5,
       "value": "187.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1687,
+      "offset": 1614,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1701,
+      "offset": 1628,
       "length": 4,
       "value": "28.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1706,
+      "offset": 1633,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1719,
+      "offset": 1646,
       "length": 5,
       "value": "109.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1725,
+      "offset": 1652,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/BeginiVariables.swift",
       "kind": "IntegerLiteral",
-      "offset": 1739,
+      "offset": 1666,
       "length": 1,
       "value": "1"
     },
@@ -13212,7 +13066,7 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chandramohan\/Library\/Developer\/Xcode\/DerivedData\/begini_ios_sdk-cxjfnuapumextgcvivjfcsjnrrby\/Build\/Intermediates.noindex\/ArchiveIntermediates\/begini_ios_sdk\/IntermediateBuildFilesPath\/begini_ios_sdk.build\/Release-iphoneos\/begini_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/chandramohan\/Library\/Developer\/Xcode\/DerivedData\/begini_ios_sdk-ekmdmcdaymgaqnchjpojnqwddwll\/Build\/Intermediates.noindex\/ArchiveIntermediates\/begini_ios_sdk\/IntermediateBuildFilesPath\/begini_ios_sdk.build\/Release-iphoneos\/begini_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 732,
       "length": 12,
