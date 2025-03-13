@@ -94,7 +94,6 @@ extension begini_ios_sdk.Archive {
 }
 @objc @_inheritsConvenienceInitializers public class BeginiAuthorize : ObjectiveC.NSObject {
   public static let shared: begini_ios_sdk.BeginiAuthorize
-  public var customUIViewControllerProvider: (() -> UIKit.UIViewController)?
   public func BeginiDataSdkOptions(integration_id: Swift.String, api_key: Swift.String, isContactsEnabled: Swift.Bool, isProfileEnabled: Swift.Bool, u_id: Swift.String, isBatteryEnabled: Swift.Bool, isWifiEnabled: Swift.Bool, isGalleryExifDataEnabled: Swift.Bool, isCalendarEnabled: Swift.Bool, isLocationEnabled: Swift.Bool, isPiiHashingEnabled: Swift.Bool, primaryColor: UIKit.UIColor, language: Swift.String, delegate: any begini_ios_sdk.BeginiAuthorizeDelegate, presentingVC: UIKit.UIViewController)
   public func BeginiDataSdkCore(integration_id: Swift.String, api_key: Swift.String, isContactsEnabled: Swift.Bool, isProfileEnabled: Swift.Bool, u_id: Swift.String, isBatteryEnabled: Swift.Bool, isWifiEnabled: Swift.Bool, isGalleryExifDataEnabled: Swift.Bool, isCalendarEnabled: Swift.Bool, isLocationEnabled: Swift.Bool, isPiiHashingEnabled: Swift.Bool, primaryColor: UIKit.UIColor, language: Swift.String, delegate: any begini_ios_sdk.BeginiAuthorizeDelegate, presentingVC: UIKit.UIViewController, useCustomUI: Swift.Bool = false)
   @objc override dynamic public init()
