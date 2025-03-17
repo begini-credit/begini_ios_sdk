@@ -1,6 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "begini_ios_sdk"
+  spec.vendored_frameworks = 'begini_ios_sdk.xcframework'
   spec.version      = "1.2.4"
   spec.summary      = "Begini iOS SDK"
   spec.description  = "Begini SDK allows you to collect device data in your iPhone app."
@@ -17,8 +18,9 @@ Pod::Spec.new do |spec|
   spec.swift_versions = "5.1"
   spec.ios.deployment_target  = "13"
 
-  # Use XCFramework built via Carthage
-  spec.vendored_frameworks = 'begini_ios_sdk.xcframework', 'Carthage/Build/iOS/AWSCore.framework', 'Carthage/Build/iOS/AWSKMS.framework'
+  spec.dependency 'AWSCore', '~> 2.37'
+  spec.dependency 'AWSKMS', '~> 2.37'
+
 
   # Explicitly declare system frameworks required
   spec.frameworks = 'Foundation', 'UIKit', 'Security', 'SystemConfiguration'
