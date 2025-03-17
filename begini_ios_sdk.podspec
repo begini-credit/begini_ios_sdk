@@ -26,6 +26,6 @@ Pod::Spec.new do |spec|
   spec.frameworks = 'Foundation', 'UIKit', 'Security', 'SystemConfiguration'
 
   # Ensure static linking if necessary
-  spec.static_framework = true
+  #spec.static_framework = true
 
 end
