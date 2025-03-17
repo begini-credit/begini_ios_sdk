@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
                         :type => 'MIT',
                         :file => 'LICENSE'
                       }
-  spec.author             = { "Begini" => "mobiledev@begini.co" }
+  spec.author       = { "Begini" => "mobiledev@begini.co" }
   spec.platform     = :ios, "12.1"
   spec.source       = { :git => "https://github.com/begini-credit/begini_ios_sdk.git", :tag => spec.version.to_s }
 
