@@ -11,21 +11,20 @@ Pod::Spec.new do |spec|
                         :type => 'MIT',
                         :file => 'LICENSE'
                       }
-  spec.author             = { "Begini" => "mobiledev@begini.co" }
+  spec.author       = { "Begini" => "mobiledev@begini.co" }
   spec.platform     = :ios, "12.1"
   spec.source       = { :git => "https://github.com/begini-credit/begini_ios_sdk.git", :tag => spec.version.to_s }
 
   spec.swift_versions = "5.1"
   spec.ios.deployment_target  = "13"
 
-  spec.dependency 'AWSCore', '~> 2.37'
-  spec.dependency 'AWSKMS', '~> 2.37'
-
+  # Use XCFramework built via Carthage
+  spec.vendored_frameworks = 'begini_ios_sdk.xcframework', 'VendorFrameworks/AWSCore.xcframework', 'VendorFrameworks/AWSKMS.xcframework'
 
   # Explicitly declare system frameworks required
   spec.frameworks = 'Foundation', 'UIKit', 'Security', 'SystemConfiguration'
 
   # Ensure static linking if necessary
-  #spec.static_framework = true
+  spec.static_framework = false
 
 end
