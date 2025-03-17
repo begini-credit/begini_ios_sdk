@@ -1,6 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "begini_ios_sdk"
+  spec.vendored_frameworks = 'begini_ios_sdk.xcframework'
   spec.version      = "1.2.4"
   spec.summary      = "Begini iOS SDK"
   spec.description  = "Begini SDK allows you to collect device data in your iPhone app."
@@ -10,7 +11,7 @@ Pod::Spec.new do |spec|
                         :type => 'MIT',
                         :file => 'LICENSE'
                       }
-  spec.author             = { "Begini" => "mobiledev@begini.co" }
+  spec.author       = { "Begini" => "mobiledev@begini.co" }
   spec.platform     = :ios, "12.1"
   spec.source       = { :git => "https://github.com/begini-credit/begini_ios_sdk.git", :tag => spec.version.to_s }
 
@@ -24,6 +25,6 @@ Pod::Spec.new do |spec|
   spec.frameworks = 'Foundation', 'UIKit', 'Security', 'SystemConfiguration'
 
   # Ensure static linking if necessary
-  spec.static_framework = true
+  spec.static_framework = false
 
 end
