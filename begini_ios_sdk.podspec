@@ -18,8 +18,8 @@ Pod::Spec.new do |spec|
   spec.swift_versions = "5.1"
   spec.ios.deployment_target  = "13"
 
-  spec.dependency 'AWSCore', '~> 2.37'
-  spec.dependency 'AWSKMS', '~> 2.37'
+  spec.dependency 'AWSCore'
+  spec.dependency 'AWSKMS'
 
 
   # Explicitly declare system frameworks required
