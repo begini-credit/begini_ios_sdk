@@ -11,13 +11,18 @@ Pod::Spec.new do |spec|
                         :file => 'LICENSE'
                       }
   spec.author       = { "Begini" => "mobiledev@begini.co" }
-  spec.platform     = :ios, "12.1"
+  spec.platform     = :ios, "13.0"
   spec.ios.deployment_target  = "13"
 
   # Source location
   spec.source       = { :git => "https://github.com/begini-credit/begini_ios_sdk.git", :tag => spec.version.to_s }
 
   spec.swift_versions = "5.1"
+
+  # AWS SDK is required for the framework to work
+  spec.dependency 'AWSCore'
+  spec.dependency 'AWSKMS'
+
 
   # Use XCFramework built via Carthage (ONLY your SDK, NOT AWS SDKs)
   spec.vendored_frameworks = 'begini_ios_sdk.xcframework'

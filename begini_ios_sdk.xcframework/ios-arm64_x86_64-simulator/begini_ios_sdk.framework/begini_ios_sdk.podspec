@@ -17,10 +17,6 @@ Pod::Spec.new do |spec|
   # Swift Version
   spec.swift_versions = "5.1"
 
-  # Include AWS dependencies (Fixes linking issue)
-  spec.dependency 'AWSCore', '~> 2.37.2'
-  spec.dependency 'AWSKMS', '~> 2.37.2'
-
   # Declare XCFramework correctly
   spec.vendored_frameworks = 'begini_ios_sdk.xcframework'
 
