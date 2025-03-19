@@ -19,10 +19,6 @@ Pod::Spec.new do |spec|
 
   spec.swift_versions = "5.1"
 
-  # AWS SDK is required for the framework to work
-  spec.dependency 'AWSCore'
-  spec.dependency 'AWSKMS'
-
 
   # Use XCFramework built via Carthage (ONLY your SDK, NOT AWS SDKs)
   spec.vendored_frameworks = 'begini_ios_sdk.xcframework'
