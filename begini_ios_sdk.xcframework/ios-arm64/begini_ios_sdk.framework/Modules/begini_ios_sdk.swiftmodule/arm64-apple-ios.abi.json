@@ -4401,6 +4401,20 @@
       },
       {
         "kind": "Import",
+        "name": "AWSCore",
+        "printedName": "AWSCore",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "AWSKMS",
+        "printedName": "AWSKMS",
+        "declKind": "Import",
+        "moduleName": "begini_ios_sdk"
+      },
+      {
+        "kind": "Import",
         "name": "CommonCrypto",
         "printedName": "CommonCrypto",
         "declKind": "Import",
@@ -12364,195 +12378,6 @@
       "offset": 673,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 3569,
-      "length": 21,
-      "value": "\"AES KEY : \""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 3589,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 3926,
-      "length": 19,
-      "value": "\"AWSServiceManager\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 4042,
-      "length": 30,
-      "value": "\"AWSStaticCredentialsProvider\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 4164,
-      "length": 25,
-      "value": "\"AWSServiceConfiguration\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 4255,
-      "length": 63,
-      "value": "\"❌ AWS SDK is NOT installed. Cannot proceed with encryption.\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 4372,
-      "length": 18,
-      "value": "\"EncryptionHelper\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4398,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 4440,
-      "length": 27,
-      "value": "\"AWS SDK is not available.\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 4528,
-      "length": 61,
-      "value": "\"✅ AWS SDK is properly loaded! Proceeding with encryption.\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 5153,
-      "length": 22,
-      "value": "\"AWSKMSEncryptRequest\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 5464,
-      "length": 7,
-      "value": "\"keyId\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 5544,
-      "length": 11,
-      "value": "\"plaintext\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 5701,
-      "length": 28,
-      "value": "\"encrypt:completionHandler:\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 6357,
-      "length": 16,
-      "value": "\"ciphertextBlob\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 6466,
-      "length": 18,
-      "value": "\"EncryptionHelper\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6492,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 6534,
-      "length": 36,
-      "value": "\"Failed to encrypt AES key with KMS\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 6814,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 6886,
-      "length": 5,
-      "value": "\"key\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 7017,
-      "length": 23,
-      "value": "\"Json Data : \""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 7039,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "Array",
-      "offset": 7157,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 7351,
-      "length": 18,
-      "value": "\"EncryptionHelper\""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7377,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 7419,
-      "length": 57,
-      "value": "\"Failed to serialize JSON: \""
-    },
-    {
-      "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Helpers\/EncryptionHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 7475,
-      "length": 5,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/chandramohan\/Documents\/begini-sdk-ios\/Models\/Models.swift",
