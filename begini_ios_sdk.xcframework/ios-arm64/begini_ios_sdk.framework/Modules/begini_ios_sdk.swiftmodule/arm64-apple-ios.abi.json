@@ -4404,7 +4404,10 @@
         "name": "AWSCore",
         "printedName": "AWSCore",
         "declKind": "Import",
-        "moduleName": "begini_ios_sdk"
+        "moduleName": "begini_ios_sdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
